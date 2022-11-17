@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Seleccione.SiNo_1</name>
+   <tag></tag>
+   <elementGuidId>34caf0c1-a820-43a9-b4ae-aaa765b1bf57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0026W0007W0012ECANEMPSEN']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#W0026W0007W0012ECANEMPSEN</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>dd7af2e4-b191-48ff-9b6f-7cddf32971bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>W0026W0007W0012ECANEMPSEN</value>
+      <webElementGuid>fa9c0310-526e-4c56-a818-c4e4b6cf4481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>W0026W0007W0012ECANEMPSEN</value>
+      <webElementGuid>528148bd-eb0f-4f39-b68a-0feac8019c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Attribute_Required form-control</value>
+      <webElementGuid>d768b33d-61fd-4486-b8c5-10b390ba15ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoch0</name>
+      <type>Main</type>
+      <value>if(!(gx.evt.jsEvent(this))) return false;</value>
+      <webElementGuid>42453f4d-03c7-4fe4-b068-41dba16af8dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 155,'W0026W0007W0012',false,'',0)</value>
+      <webElementGuid>b66799cf-66b8-4a13-970c-fd08ca0f4834</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>;gx.evt.onchange(this, event)</value>
+      <webElementGuid>f6f8446e-e56f-4bdd-97c7-b4eab797806a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,155);</value>
+      <webElementGuid>45a15177-4bc1-4e20-8a09-8db6f015b331</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Seleccione...SiNo</value>
+      <webElementGuid>55283db3-7f17-4b2e-81a1-af51a8f97933</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;W0026W0007W0012ECANEMPSEN&quot;)</value>
+      <webElementGuid>f18a2e41-9856-437a-908d-66c06627eea5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='W0026W0007W0012ECANEMPSEN']</value>
+      <webElementGuid>2a94ffdb-ddca-4b60-a53b-fb4641c6e2f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='W0026W0007W0012GROUP0TABLECONTENT']/div[13]/div/div/div/select</value>
+      <webElementGuid>834e6608-6b1d-4356-b55e-58e4aa509dee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado Sena'])[1]/following::select[1]</value>
+      <webElementGuid>1f7fe5cd-dc05-4761-b876-104ba736bdf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición Laboral'])[1]/following::select[2]</value>
+      <webElementGuid>728a18fe-2f2c-45d0-b53d-4bfe6b4c4e0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Empleado'])[1]/preceding::select[1]</value>
+      <webElementGuid>59d03a78-cc3c-4c64-9d18-61e8939089df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EncontroCRM'])[1]/preceding::select[2]</value>
+      <webElementGuid>ab78aea8-1a4f-4a14-af22-1b03d78aaa3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]/div/div/div/select</value>
+      <webElementGuid>f70a5b0c-2a14-4c06-a442-0dccfb392fdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'W0026W0007W0012ECANEMPSEN' and @name = 'W0026W0007W0012ECANEMPSEN' and (text() = '
+Seleccione...SiNo' or . = '
+Seleccione...SiNo')]</value>
+      <webElementGuid>14373288-fe61-4f9f-9a20-5e736f55edc8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

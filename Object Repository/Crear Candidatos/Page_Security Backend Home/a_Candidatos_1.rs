@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Candidatos_1</name>
+   <tag></tag>
+   <elementGuidId>a1feac3b-3876-4d72-9337-cd991140ec04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='K2baccordionmenu']/li/ul/li[4]/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.mm-collapse.mm-show > li.mm-active > ul.mm-collapse.mm-show > li > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>626fee9e-18fb-4c38-9370-48d252315f8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>com.portalsena.wwcandidatos</value>
+      <webElementGuid>c22384dd-ce9d-4cdf-be97-1828e6ff5bce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Candidatos</value>
+      <webElementGuid>455f665b-4f22-402f-8a68-c5989eb9d879</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;K2baccordionmenu&quot;)/li[@class=&quot;mm-active&quot;]/ul[@class=&quot;mm-collapse mm-show&quot;]/li[@class=&quot;mm-active&quot;]/ul[@class=&quot;mm-collapse mm-show&quot;]/li[1]/a[1]</value>
+      <webElementGuid>8917412d-1b26-4123-8969-58d44a321213</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='K2baccordionmenu']/li/ul/li[4]/ul/li/a</value>
+      <webElementGuid>26f06830-eb1c-49c2-b417-c4ce67fbb8de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidatos'])[1]/following::a[1]</value>
+      <webElementGuid>12cbdb60-0f89-4ed0-82ea-bee3f7501889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tareas Programadas'])[1]/following::a[2]</value>
+      <webElementGuid>1b552817-e6fa-47b5-b352-a04a26bde8eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Corrección Cédulas'])[1]/preceding::a[1]</value>
+      <webElementGuid>05d56204-3f82-47de-9dd5-038708da0442</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'com.portalsena.wwcandidatos')]</value>
+      <webElementGuid>e2f4ab6f-39e0-493c-a19b-84fb6f64483b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li[4]/ul/li/a</value>
+      <webElementGuid>992d6bd1-fb29-411c-aebb-15090c562afb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'com.portalsena.wwcandidatos' and (text() = 'Candidatos' or . = 'Candidatos')]</value>
+      <webElementGuid>1bc3fcbc-6ac4-4263-bb51-cb9fbd7885fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

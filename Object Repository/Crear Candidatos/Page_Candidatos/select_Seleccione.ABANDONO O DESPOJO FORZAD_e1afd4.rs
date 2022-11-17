@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Seleccione.ABANDONO O DESPOJO FORZAD_e1afd4</name>
+   <tag></tag>
+   <elementGuidId>faef376f-26d5-44ad-aa50-01d75899c525</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0026W0007W0012ETIPPOBSEC']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#W0026W0007W0012ETIPPOBSEC</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>262bc1f3-12c4-411d-8b2b-6814e4291325</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>W0026W0007W0012ETIPPOBSEC</value>
+      <webElementGuid>0fc3bc8f-5eb5-4d2b-80f7-8fe55c124e91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>W0026W0007W0012ETIPPOBSEC</value>
+      <webElementGuid>bddd8175-fe25-4b05-9083-8b48942331be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Attribute_Required form-control</value>
+      <webElementGuid>48004994-0578-407d-a63f-b8f49d8844aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoch0</name>
+      <type>Main</type>
+      <value>if(!(gx.evt.jsEvent(this))) return false;</value>
+      <webElementGuid>90c94a5a-64b0-4516-a805-43632b81e9da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 130,'W0026W0007W0012',false,'',0)</value>
+      <webElementGuid>dc043bfe-962b-47f4-8d53-140db4ac9270</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>;gx.evt.onchange(this, event)</value>
+      <webElementGuid>24a4c087-fcd0-4620-a7df-87802de6b7e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,130);</value>
+      <webElementGuid>5c41a1d6-2dfb-4940-82a7-6098e248d204</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoldvalue</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>be1f24bf-841a-466d-ac48-fd0c41f5fb50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+...Seleccione...ABANDONO O DESPOJO FORZADO DE TIERRASACTOS TERRORISTAS/ATENTADOS/COMBATES/ENFRENTAMIENTOSADOLESCENTE DESVINCULADO DE GRUPOS ARMADOSADOLESCENTE EN CONFLICTO CON LA LEY PENALADOLESCENTE TRABAJADORAFROCOLOMBIANOSAFROCOLOMBIANOS DESPLAZADOS POR LA VIOLENCIAAFROCOLOMBIANOS DESPLAZADOS POR LA VIOLENCIA CABEZA DEAMENAZAARTESANOSCOMUNIDAD RROMMDELITOS CONTRA LA LIBERTAD Y LA INTEGRIDAD SEXUAL EN DESARROLLO DELDESAPARICIÓN FORZADADESPLAZADOS DISCAPACITADOSDESPLAZADOS POR FENOMENOS NATURALESDESPLAZADOS POR FENÓMENOS NATURALES CABEZA DE FAMILIADESPLAZADOS POR LA VIOLENCIADESPLAZADOS POR LA VIOLENCIA CABEZA DE FAMILIAEMPRENDEDORESHERIDOHOMICIDIO/MASACREINDIGENASINDIGENAS DESPLAZADOS POR LA VIOLENCIAINDIGENAS DESPLAZADOS POR LA VIOLENCIA DE FAMILIAINPECJÓVENES VULNERABLESMICROEMPRESASMINAS ANTIPERSONAL, MUNICIÓN SIN EXPLOTAR, ARTEFACTO EXPLOSIVOMUJER CABEZA DE FAMILIANEGRITUDESNINGUNAPALENQUEROSPERSONAS EN PROCESO DE REINTEGRACIÓNRAIZALESRECLUTAMIENTO FORZADOREMITIDOS POR EL CIEREMITIDOS POR EL PALSECUESTROSOLDADOS CAMPESINOSTERCERA EDADTORTURAVINCULACIÓN DE NIÑOS,NIÑAS Y ADOLESCENTES A ACTIVIDADES RELACIONADA</value>
+      <webElementGuid>678c60ae-6d01-400b-9c8d-318477701254</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;W0026W0007W0012ETIPPOBSEC&quot;)</value>
+      <webElementGuid>5b5c3133-e395-49da-9156-9b4e482413ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='W0026W0007W0012ETIPPOBSEC']</value>
+      <webElementGuid>68f014dc-7a8a-4c8f-8041-cf94be077053</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='W0026W0007W0012GROUP0TABLECONTENT']/div[10]/div[2]/div/div/select</value>
+      <webElementGuid>89782b9f-49d3-4eb6-a868-1eb9aefee0fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de Población'])[1]/following::select[1]</value>
+      <webElementGuid>9dc912d3-0b12-42ca-80e5-15318ad7af31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nivel de Escolaridad'])[1]/following::select[2]</value>
+      <webElementGuid>d76df0c5-b438-46e1-aee0-41586bbab0ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición de discapacidad'])[1]/preceding::select[1]</value>
+      <webElementGuid>542260af-fce4-4f63-9022-1ddec19a6a00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición de discapacidad'])[2]/preceding::select[1]</value>
+      <webElementGuid>39387a80-3e99-48b0-9ae6-464db6794c65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div[2]/div/div/select</value>
+      <webElementGuid>2bc1593b-1c60-4bf8-8725-fc602eb62eab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'W0026W0007W0012ETIPPOBSEC' and @name = 'W0026W0007W0012ETIPPOBSEC' and (text() = '
+...Seleccione...ABANDONO O DESPOJO FORZADO DE TIERRASACTOS TERRORISTAS/ATENTADOS/COMBATES/ENFRENTAMIENTOSADOLESCENTE DESVINCULADO DE GRUPOS ARMADOSADOLESCENTE EN CONFLICTO CON LA LEY PENALADOLESCENTE TRABAJADORAFROCOLOMBIANOSAFROCOLOMBIANOS DESPLAZADOS POR LA VIOLENCIAAFROCOLOMBIANOS DESPLAZADOS POR LA VIOLENCIA CABEZA DEAMENAZAARTESANOSCOMUNIDAD RROMMDELITOS CONTRA LA LIBERTAD Y LA INTEGRIDAD SEXUAL EN DESARROLLO DELDESAPARICIÓN FORZADADESPLAZADOS DISCAPACITADOSDESPLAZADOS POR FENOMENOS NATURALESDESPLAZADOS POR FENÓMENOS NATURALES CABEZA DE FAMILIADESPLAZADOS POR LA VIOLENCIADESPLAZADOS POR LA VIOLENCIA CABEZA DE FAMILIAEMPRENDEDORESHERIDOHOMICIDIO/MASACREINDIGENASINDIGENAS DESPLAZADOS POR LA VIOLENCIAINDIGENAS DESPLAZADOS POR LA VIOLENCIA DE FAMILIAINPECJÓVENES VULNERABLESMICROEMPRESASMINAS ANTIPERSONAL, MUNICIÓN SIN EXPLOTAR, ARTEFACTO EXPLOSIVOMUJER CABEZA DE FAMILIANEGRITUDESNINGUNAPALENQUEROSPERSONAS EN PROCESO DE REINTEGRACIÓNRAIZALESRECLUTAMIENTO FORZADOREMITIDOS POR EL CIEREMITIDOS POR EL PALSECUESTROSOLDADOS CAMPESINOSTERCERA EDADTORTURAVINCULACIÓN DE NIÑOS,NIÑAS Y ADOLESCENTES A ACTIVIDADES RELACIONADA' or . = '
+...Seleccione...ABANDONO O DESPOJO FORZADO DE TIERRASACTOS TERRORISTAS/ATENTADOS/COMBATES/ENFRENTAMIENTOSADOLESCENTE DESVINCULADO DE GRUPOS ARMADOSADOLESCENTE EN CONFLICTO CON LA LEY PENALADOLESCENTE TRABAJADORAFROCOLOMBIANOSAFROCOLOMBIANOS DESPLAZADOS POR LA VIOLENCIAAFROCOLOMBIANOS DESPLAZADOS POR LA VIOLENCIA CABEZA DEAMENAZAARTESANOSCOMUNIDAD RROMMDELITOS CONTRA LA LIBERTAD Y LA INTEGRIDAD SEXUAL EN DESARROLLO DELDESAPARICIÓN FORZADADESPLAZADOS DISCAPACITADOSDESPLAZADOS POR FENOMENOS NATURALESDESPLAZADOS POR FENÓMENOS NATURALES CABEZA DE FAMILIADESPLAZADOS POR LA VIOLENCIADESPLAZADOS POR LA VIOLENCIA CABEZA DE FAMILIAEMPRENDEDORESHERIDOHOMICIDIO/MASACREINDIGENASINDIGENAS DESPLAZADOS POR LA VIOLENCIAINDIGENAS DESPLAZADOS POR LA VIOLENCIA DE FAMILIAINPECJÓVENES VULNERABLESMICROEMPRESASMINAS ANTIPERSONAL, MUNICIÓN SIN EXPLOTAR, ARTEFACTO EXPLOSIVOMUJER CABEZA DE FAMILIANEGRITUDESNINGUNAPALENQUEROSPERSONAS EN PROCESO DE REINTEGRACIÓNRAIZALESRECLUTAMIENTO FORZADOREMITIDOS POR EL CIEREMITIDOS POR EL PALSECUESTROSOLDADOS CAMPESINOSTERCERA EDADTORTURAVINCULACIÓN DE NIÑOS,NIÑAS Y ADOLESCENTES A ACTIVIDADES RELACIONADA')]</value>
+      <webElementGuid>a3871227-84f6-4680-a7c8-7efebedffaa4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

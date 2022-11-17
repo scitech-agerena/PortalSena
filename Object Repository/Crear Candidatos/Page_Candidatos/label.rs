@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label</name>
+   <tag></tag>
+   <elementGuidId>6b72f75b-24d8-40bf-aca9-b5180e1012ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;GridcargosContainerRow_0002&quot;)/td[@class=&quot;gx-tab-padding-fix-1 gx-attribute K2BToolsCheckBoxColumn&quot;]/label[@class=&quot;CheckBoxInGrid K2BT_CheckboxContainer&quot;]/label[1][count(. | //*[@for = 'vMULTIROWITEMSELECTED_GRIDCARGOS_0002' and @ref_element = 'Object Repository/Crear Candidatos/Page_Candidatos/iframe_Seleccin de Ocupacin de Candidato_gxp0_ifrm']) = count(//*[@for = 'vMULTIROWITEMSELECTED_GRIDCARGOS_0002' and @ref_element = 'Object Repository/Crear Candidatos/Page_Candidatos/iframe_Seleccin de Ocupacin de Candidato_gxp0_ifrm'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#GridcargosContainerRow_0002 > td.gx-tab-padding-fix-1.gx-attribute.K2BToolsCheckBoxColumn > label.CheckBoxInGrid.K2BT_CheckboxContainer > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='GridcargosContainerRow_0002']/td/label/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>1397f4da-c03e-4021-a73c-c5338be11b66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>vMULTIROWITEMSELECTED_GRIDCARGOS_0002</value>
+      <webElementGuid>db469f25-4a9a-4bf9-ae8b-0d9601ae4160</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;GridcargosContainerRow_0002&quot;)/td[@class=&quot;gx-tab-padding-fix-1 gx-attribute K2BToolsCheckBoxColumn&quot;]/label[@class=&quot;CheckBoxInGrid K2BT_CheckboxContainer&quot;]/label[1]</value>
+      <webElementGuid>84a42933-ec9b-4bc8-aa21-4b2e377337a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Crear Candidatos/Page_Candidatos/iframe_Seleccin de Ocupacin de Candidato_gxp0_ifrm</value>
+      <webElementGuid>c94d7354-0aae-4724-9154-63f96b1a4965</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='GridcargosContainerRow_0002']/td/label/label</value>
+      <webElementGuid>0a399633-862c-415d-bbc8-ed16bbb1d58a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/label/label</value>
+      <webElementGuid>43b80a4f-c74d-4e93-9313-851a4baec2c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

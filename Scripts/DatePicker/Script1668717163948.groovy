@@ -17,17 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Login/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo'), 
-    'local', true)
-
-WebUI.setText(findTestObject('Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME'), GlobalVariable.u_scitech1)
-
-WebUI.setText(findTestObject('Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f'), 
-    GlobalVariable.p_scitech_1)
-
-WebUI.click(findTestObject('Object Repository/Login/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN'))
-

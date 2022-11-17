@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label (1)</name>
+   <tag></tag>
+   <elementGuidId>3b0216f7-38b0-49a3-bdaa-ec118ebf2098</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for = 'vMULTIROWITEMSELECTED_GRIDAREASCLAVE_0002' and @ref_element = 'Object Repository/Crear Candidatos/Page_Candidatos/iframe_reas Inters_gxp0_ifrm']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#GridareasclaveContainerRow_0002 > td.gx-tab-padding-fix-1.gx-attribute.K2BToolsCheckBoxColumn > label.CheckBoxInGrid.K2BT_CheckboxContainer > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='GridareasclaveContainerRow_0002']/td/label/label</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>6f5056f1-92ad-4411-b9f3-25eabf2c452e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>vMULTIROWITEMSELECTED_GRIDAREASCLAVE_0002</value>
+      <webElementGuid>07b2dba8-bc55-4c78-82f1-be310ed429f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;GridareasclaveContainerRow_0002&quot;)/td[@class=&quot;gx-tab-padding-fix-1 gx-attribute K2BToolsCheckBoxColumn&quot;]/label[@class=&quot;CheckBoxInGrid K2BT_CheckboxContainer&quot;]/label[1]</value>
+      <webElementGuid>76d1dd59-1456-4926-915e-f294cc19eb12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Crear Candidatos/Page_Candidatos/iframe_reas Inters_gxp0_ifrm</value>
+      <webElementGuid>282c6a67-133f-4c47-96c1-965d78c10bd1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='GridareasclaveContainerRow_0002']/td/label/label</value>
+      <webElementGuid>32de84cc-df4c-48c3-a977-aa57cfeaa6b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/label/label</value>
+      <webElementGuid>43a8903d-8a9d-4443-93a9-d95f7d24f137</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

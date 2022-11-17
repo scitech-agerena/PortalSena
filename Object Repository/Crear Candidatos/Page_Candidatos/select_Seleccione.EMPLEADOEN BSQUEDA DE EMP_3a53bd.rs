@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Seleccione.EMPLEADOEN BSQUEDA DE EMP_3a53bd</name>
+   <tag></tag>
+   <elementGuidId>bd43f005-2768-43b5-9fcd-ecc08538d53b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0026W0007W0012ECONLABSEC']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#W0026W0007W0012ECONLABSEC</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>256604d9-88aa-44c3-be5f-647cec49056f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>W0026W0007W0012ECONLABSEC</value>
+      <webElementGuid>ba3b07fe-b64d-4f8b-bd4e-8fc75cd2445c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>W0026W0007W0012ECONLABSEC</value>
+      <webElementGuid>c427dfc2-eb7c-4822-86c3-e1802068956e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Attribute_Required form-control</value>
+      <webElementGuid>0e5def5b-9cde-401c-83a2-02bac214b5b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoch0</name>
+      <type>Main</type>
+      <value>if(!(gx.evt.jsEvent(this))) return false;</value>
+      <webElementGuid>fdb00eff-b089-40e4-98ba-54d6a4235c09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 150,'W0026W0007W0012',false,'',0)</value>
+      <webElementGuid>fae6468d-3865-4bae-a027-eb920b4f8869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>;gx.evt.onchange(this, event)</value>
+      <webElementGuid>40a9e21b-7d94-4bab-9a50-deca2b5923af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,150);</value>
+      <webElementGuid>c2e85272-5347-4583-ac5f-ef60ac5ad5c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoldvalue</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>f5416214-d9c9-4118-84de-4e1dcb5a6bf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+...Seleccione...EMPLEADOEN BÚSQUEDA DE EMPLEOINDEPENDIENTE</value>
+      <webElementGuid>91c376fc-e62e-4e36-a26f-50a0b17c4684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;W0026W0007W0012ECONLABSEC&quot;)</value>
+      <webElementGuid>cea6c23b-b6a5-43c5-8ba2-982531d33d11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='W0026W0007W0012ECONLABSEC']</value>
+      <webElementGuid>dbf943e1-1ff7-4f23-a716-6836d6860df2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='W0026W0007W0012GROUP0TABLECONTENT']/div[12]/div/div/div/select</value>
+      <webElementGuid>2103a331-5465-4bd2-ae96-6a0afa0aa87c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición Laboral'])[1]/following::select[1]</value>
+      <webElementGuid>bb052562-a027-4856-b19f-96a548040038</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Discapacidades'])[1]/following::select[1]</value>
+      <webElementGuid>d3d13388-1881-4a81-b3b2-851d971bb1df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado Sena'])[1]/preceding::select[1]</value>
+      <webElementGuid>8be498ff-04cb-4092-84ce-eb755c985ff7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Empleado'])[1]/preceding::select[2]</value>
+      <webElementGuid>0c1d264b-329b-4e6b-ac80-d487fba5a8ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div/select</value>
+      <webElementGuid>2f410096-1b11-4668-a819-90e0ae512a50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'W0026W0007W0012ECONLABSEC' and @name = 'W0026W0007W0012ECONLABSEC' and (text() = '
+...Seleccione...EMPLEADOEN BÚSQUEDA DE EMPLEOINDEPENDIENTE' or . = '
+...Seleccione...EMPLEADOEN BÚSQUEDA DE EMPLEOINDEPENDIENTE')]</value>
+      <webElementGuid>c8005e99-a166-424c-b174-cfa0d908b2f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
