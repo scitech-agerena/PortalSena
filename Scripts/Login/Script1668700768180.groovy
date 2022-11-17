@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://172.29.35.252:8080/PortalSena16/servlet/com.portalsena.scigamlogin')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Login/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo'), 
     'local', true)
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME'), 'scitech_2')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME'), GlobalVariable.u_scitech1)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f'), 
-    'Ov80Ze0TAxowNvBZQ/GttQ==')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f'), 
+    GlobalVariable.p_scitech_1)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN'))
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>252</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Url de acceso</description>
+      <initValue>'http://172.29.35.252:8080/PortalSena16/servlet/com.portalsena.scigamlogin'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'scitech_1'</initValue>
+      <name>u_scitech1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'scitech_2'</initValue>
+      <name>u_scitech2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'scitech_1'</initValue>
+      <name>p_scitech_1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'scitech_2'</initValue>
+      <name>p_scitech_2</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
