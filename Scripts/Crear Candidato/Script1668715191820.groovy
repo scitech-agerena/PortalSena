@@ -21,6 +21,8 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo'), 
@@ -33,6 +35,8 @@ WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Inicio de 
 
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Security Backend Home/a_Administracin'))
 
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos'))
@@ -40,6 +44,8 @@ WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Security Bac
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos_1'))
 
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Estado_INSERT'))
+
+WebUI.takeScreenshot()
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.CCCEEINTAX IDNITPEPPPTPSTI'), 
     '1', true)
@@ -67,6 +73,8 @@ WebElement fechaNacimiento = WebUiCommonHelper.findWebElement(findTestObject('Ob
 
 WebUI.executeJavaScript('arguments[0].value=\'18/04/1993\'', Arrays.asList(fechaNacimiento))
 
+WebUI.takeScreenshot()
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.HombreMujer'), 
     '1', true)
 
@@ -92,6 +100,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Pag
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ARAUCAARAUQUITACRAVO NORT_4b0dac'), 
     '1053', true)
+
+WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Libreta Militar_W0026W0007W0012ECANLIBMIL'), 
     '123454321')
@@ -134,6 +144,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Pag
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_1_2_3'), 
     '2', true)
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input__CONFIRMAR'))
 
 WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Direccin_W0026W0007W0012ECANDIRDOM'), 
@@ -166,9 +178,13 @@ WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos
 WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Celular_W0026W0007W0012ECAMEMETEL'), 
     '3212222222')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/img_reas de Inters_W0026W0007W0012SELAREASINTERES'))
 
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/label (1)'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_reas de Inters_CONFIRMAR'))
 
