@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Participantes</name>
+   <tag></tag>
+   <elementGuidId>36166838-6b51-4a4e-a581-17e5db3fa664</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='K2baccordionmenu']/li/ul/li[6]/ul/li[19]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>724e2dfd-a918-4fd3-bf49-5b7706c3ce64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>com.portalsena.wwparticipante</value>
+      <webElementGuid>b4625faf-0b59-4c76-9c9e-1052ca5fb9d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Participantes</value>
+      <webElementGuid>cd6f6a98-3e12-45b7-84d5-116bc1e06985</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;K2baccordionmenu&quot;)/li[@class=&quot;mm-active&quot;]/ul[@class=&quot;mm-collapse mm-show&quot;]/li[@class=&quot;mm-active&quot;]/ul[@class=&quot;mm-collapse mm-show&quot;]/li[19]/a[1]</value>
+      <webElementGuid>0768f021-7523-4a9d-adb0-910496b3419c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='K2baccordionmenu']/li/ul/li[6]/ul/li[19]/a</value>
+      <webElementGuid>7b602161-4615-491e-b01d-986aa9118d79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actividades Económicas'])[1]/following::a[1]</value>
+      <webElementGuid>f783ea56-841f-4cf2-85d3-56af499bd21b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clasificación de Organizaciones'])[1]/following::a[2]</value>
+      <webElementGuid>1cf79c29-b3b0-48e7-b328-b16c66f4531f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notificar Cambio Nivel'])[1]/preceding::a[1]</value>
+      <webElementGuid>8cc1d010-4b58-4ae7-8fbe-b58eb87cef70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'com.portalsena.wwparticipante')]</value>
+      <webElementGuid>b2b3ca62-eba2-4edd-abde-bf22cece2317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li[19]/a</value>
+      <webElementGuid>5394afb6-0097-4dcc-977d-a6ae1a693daa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'com.portalsena.wwparticipante' and (text() = 'Participantes' or . = 'Participantes')]</value>
+      <webElementGuid>e42bf48c-8688-45ee-abba-51cee58746e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

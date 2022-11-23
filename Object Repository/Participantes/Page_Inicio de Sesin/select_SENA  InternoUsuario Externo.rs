@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SENA  InternoUsuario Externo</name>
+   <tag></tag>
+   <elementGuidId>c24f3be8-b8ba-4b86-a274-240854c0b8ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='vLOGONTO']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#vLOGONTO</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>755e484b-ad67-4d2d-b704-a5bfe5672898</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>vLOGONTO</value>
+      <webElementGuid>14c1c87c-6a5a-4b47-9abe-443649ad44f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>vLOGONTO</value>
+      <webElementGuid>bf05730c-20e3-4b42-bfd5-157f27415cd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>K2BToolsFSGAM_Attribute100Width form-control</value>
+      <webElementGuid>f78517e6-7d5b-4a96-a92b-51811e96b2cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoch0</name>
+      <type>Main</type>
+      <value>if(!(gx.evt.jsEvent(this))) return false;</value>
+      <webElementGuid>f718e2b3-dd04-4adc-a90a-43247341543b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 87,'',false,'',0)</value>
+      <webElementGuid>18dd649e-2343-4021-b209-034ba54af0c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>;gx.evt.onchange(this, event)</value>
+      <webElementGuid>265b82bd-f94b-441b-ad2c-33baeba4f9aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,87);</value>
+      <webElementGuid>2a5dcd8c-2712-4654-942a-60be3108f7b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+SENA / InternoUsuario Externo</value>
+      <webElementGuid>9399d325-c659-4905-9049-9abf9abdf96f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vLOGONTO&quot;)</value>
+      <webElementGuid>337b923a-39cb-4f72-a91b-6df92118e38d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='vLOGONTO']</value>
+      <webElementGuid>be727d9d-e166-4513-bce1-5255c1b1b84f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='TABLE30']/div/div/div/div/select</value>
+      <webElementGuid>b35b85bd-9d88-489e-ac75-5d2646109416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Iniciar con'])[1]/following::select[1]</value>
+      <webElementGuid>a49b9565-be10-45c8-8c79-cc4055edbdbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Iniciar Sesión'])[1]/following::select[1]</value>
+      <webElementGuid>8ffa1ea0-d2b4-48f7-bdcb-aa27cf8ebc1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mantenerme conectado'])[1]/preceding::select[1]</value>
+      <webElementGuid>cc1a73e2-090f-4fe5-bc74-4bd5de359647</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mantenerme conectado_'])[1]/preceding::select[1]</value>
+      <webElementGuid>409e33ce-3d6c-4ac5-b789-dc41245aa1e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>7dae3cb5-78cf-4364-874e-c9f116a37245</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'vLOGONTO' and @name = 'vLOGONTO' and (text() = '
+SENA / InternoUsuario Externo' or . = '
+SENA / InternoUsuario Externo')]</value>
+      <webElementGuid>84fe9449-cb20-4db2-bf29-89a536808b43</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

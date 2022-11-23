@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Proceso</name>
+   <tag></tag>
+   <elementGuidId>2ad3ba82-d1ce-4004-a1d2-d43d57ab3077</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='K2baccordionmenu']/li/ul/li[6]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e6dbd831-28fe-4137-97af-24d0566bcd43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Proceso</value>
+      <webElementGuid>97ac6288-7b87-4bc4-8b70-5bba7285ff4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;K2baccordionmenu&quot;)/li[@class=&quot;mm-active&quot;]/ul[@class=&quot;mm-collapse mm-show&quot;]/li[6]/a[1]</value>
+      <webElementGuid>0df1afa1-4c4e-4527-829a-f18f59e6cdec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='K2baccordionmenu']/li/ul/li[6]/a</value>
+      <webElementGuid>2de2b8d3-ef5a-402c-9e19-d1b3e8998df7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Niveles de Escolaridad'])[1]/following::a[1]</value>
+      <webElementGuid>85ea163b-941c-492e-8d38-42bb962f3482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipos de Empleado'])[1]/following::a[2]</value>
+      <webElementGuid>45c8cccb-6e45-4cc1-9fbe-c7d413bc8fa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actores Proceso'])[1]/preceding::a[1]</value>
+      <webElementGuid>47c85546-1865-4a7c-aee5-19e557833179</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li[6]/a</value>
+      <webElementGuid>103af9fb-915e-4647-8836-d2a6fbcd9ee8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Proceso' or . = 'Proceso')]</value>
+      <webElementGuid>aa643ccc-1276-4292-8a3d-f457f8345629</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
