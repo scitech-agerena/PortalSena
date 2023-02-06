@@ -6,15 +6,19 @@
    <elementGuidId>5bd8328b-65a2-47e2-a18a-5afd45ff676f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@id='W0026W0007W0012SELCARGOS']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012SELCARGOS</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/PortalSena16/static/Resources/ActionDisplay.png' and @id = 'W0031W0007W0012SELCARGOS' and @alt = 'Indique el(los) Cargos(s) del Candidato' and @title = 'Indique el(los) Cargos(s) del Candidato']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@id='W0026W0007W0012SELCARGOS']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>5dd31d06-6df3-4c03-9b68-5c178e98fb92</webElementGuid>
+      <webElementGuid>cdcd344f-3ad8-405c-9828-c728240707c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/PortalSena16/static/Resources/ActionDisplay.png</value>
-      <webElementGuid>2cbced56-9d84-48e1-9c53-d93f497f1ae5</webElementGuid>
+      <webElementGuid>898ca901-63e8-4914-95ca-7235535dc797</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +42,15 @@
       <name>data-gx-evt</name>
       <type>Main</type>
       <value>7</value>
-      <webElementGuid>7993c25e-1439-47f8-b6c8-3b5c577729a7</webElementGuid>
+      <webElementGuid>6a873735-12d4-4768-b26f-ac477d8b2f4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012SELCARGOS</value>
-      <webElementGuid>efad4eb8-41fd-4d2f-9d8a-e714b5de1787</webElementGuid>
+      <value>W0031W0007W0012SELCARGOS</value>
+      <webElementGuid>318a4099-b279-4202-ac1e-55895fb9ca23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Indique el(los) Cargos(s) del Candidato</value>
-      <webElementGuid>f9323a5f-2d93-4895-98b7-79e3565ab7fc</webElementGuid>
+      <webElementGuid>c7197f22-64d7-421f-8bfe-4daff7e9bbcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Indique el(los) Cargos(s) del Candidato</value>
-      <webElementGuid>3780f1f2-70fe-4773-a806-503920796cf9</webElementGuid>
+      <webElementGuid>8d3d060a-87a9-4924-a315-bbbf923fdc0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 196,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>85a5ff41-562f-4511-b4f6-b6b10207c4d9</webElementGuid>
+      <webElementGuid>cb99b861-7d56-4b47-a151-6bbc1daaa9bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>data-gx-evt-control</name>
       <type>Main</type>
       <value>SELCARGOS</value>
-      <webElementGuid>967f4055-5023-44b1-b666-56dbedccdeb3</webElementGuid>
+      <webElementGuid>6ef9a2d1-39cc-42eb-a292-066b5320c9e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,23 +90,23 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>b12b7fb9-0afd-4d9d-8edf-4e04c4a58a4a</webElementGuid>
+      <webElementGuid>5e06dd48-6c51-4f13-a824-ddc8f7e6133c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-gx-context</name>
       <type>Main</type>
-      <value>[&quot;W0026W0007W0012&quot;,false]</value>
-      <webElementGuid>817c9428-acbd-4cd9-9394-bd5842a34050</webElementGuid>
+      <value>[&quot;W0031W0007W0012&quot;,false]</value>
+      <webElementGuid>a19e6af1-1fbb-4508-9086-e03af05d9e73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012SELCARGOS&quot;)</value>
-      <webElementGuid>07574a05-d7ec-4203-8054-4980348a95cd</webElementGuid>
+      <value>id(&quot;W0031W0007W0012SELCARGOS&quot;)</value>
+      <webElementGuid>5e2130a6-1a1e-4321-985d-45451dd7b9ea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@id='W0026W0007W0012SELCARGOS']</value>
-      <webElementGuid>1b4212e4-84f1-41bd-9757-d9aa6fbbaaee</webElementGuid>
+      <webElementGuid>de84d0a2-ffd1-45a3-9d2a-eeaa99814eb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0026W0007W0012K2BTOOLSTABLE_ATTRIBUTECONTAINERDESCRIPCIONCARGOSFIELDCONTAINER']/img</value>
-      <webElementGuid>4fe00c07-95c4-4be8-ba25-140d65dd19bf</webElementGuid>
+      <webElementGuid>e2558c65-143d-47b3-b636-009bb8045dc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Indique el(los) Cargos(s) del Candidato']</value>
-      <webElementGuid>b0134239-6e30-43b0-a58b-b5772a3be3e3</webElementGuid>
+      <webElementGuid>5e794cb0-a900-49a2-b7b7-52cfadca8e20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/fieldset/div/div/div/div/div/div[2]/div/img</value>
-      <webElementGuid>48c85a77-9f2c-45c7-a5ee-f6d11f2141bb</webElementGuid>
+      <webElementGuid>24c64514-2779-4998-a6a4-e123b8217a6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/PortalSena16/static/Resources/ActionDisplay.png' and @id = 'W0026W0007W0012SELCARGOS' and @alt = 'Indique el(los) Cargos(s) del Candidato' and @title = 'Indique el(los) Cargos(s) del Candidato']</value>
-      <webElementGuid>6659c63b-5036-4461-a47b-74fa9c49d3c3</webElementGuid>
+      <webElementGuid>f1736b91-029a-468b-af50-23aa1f868e06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

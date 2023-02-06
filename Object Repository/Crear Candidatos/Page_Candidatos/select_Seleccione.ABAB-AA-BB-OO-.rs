@@ -6,15 +6,23 @@
    <elementGuidId>8b9b2f6d-ef75-48a8-9a75-aa249c98062d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='W0026W0007W0012ECANGRUSAN']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012ECANGRUSAN</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;W0031W0007W0012ECANGRUSAN&quot;)[count(. | //*[@id = 'W0031W0007W0012ECANGRUSAN' and @name = 'W0031W0007W0012ECANGRUSAN' and (text() = '
+...Seleccione...AB+AB-A+A-B+B-O+O-' or . = '
+...Seleccione...AB+AB-A+A-B+B-O+O-')]) = count(//*[@id = 'W0031W0007W0012ECANGRUSAN' and @name = 'W0031W0007W0012ECANGRUSAN' and (text() = '
+...Seleccione...AB+AB-A+A-B+B-O+O-' or . = '
+...Seleccione...AB+AB-A+A-B+B-O+O-')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0026W0007W0012ECANGRUSAN']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +30,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>1260c897-f6cd-4748-ae51-2799670cb929</webElementGuid>
+      <webElementGuid>cdcb757a-c298-48a7-86b9-aff111621aba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANGRUSAN</value>
-      <webElementGuid>b0f430c1-28d8-4dd8-9155-6fbe40795424</webElementGuid>
+      <value>W0031W0007W0012ECANGRUSAN</value>
+      <webElementGuid>8d86dcb7-428f-4f81-8625-8ed510b468cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANGRUSAN</value>
-      <webElementGuid>f0e9a06e-7092-4c5c-9390-ee18d1eebd9f</webElementGuid>
+      <value>W0031W0007W0012ECANGRUSAN</value>
+      <webElementGuid>844e1428-1ba3-4307-bf6b-f87bb3bf2303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Attribute_Required form-control</value>
-      <webElementGuid>08257848-db40-44c7-90eb-31215116b4e1</webElementGuid>
+      <webElementGuid>d8299ea2-6ff0-4e42-b11c-48cc29d13c8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +62,7 @@
       <name>data-gxoch0</name>
       <type>Main</type>
       <value>if(!(gx.evt.jsEvent(this))) return false;</value>
-      <webElementGuid>f147b1ce-ad1f-4e1d-b9bc-39762bdc82a4</webElementGuid>
+      <webElementGuid>992b0893-263a-4df0-906b-1229928f2458</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +70,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 76,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>68b6e871-a3cb-4272-a535-e124efb6dbe5</webElementGuid>
+      <webElementGuid>2873d964-0449-48a4-9dfd-b77c4ec63d4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +78,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>;gx.evt.onchange(this, event)</value>
-      <webElementGuid>d1413cc9-2807-436e-a8cf-7d1181d9ccbf</webElementGuid>
+      <webElementGuid>735a0def-1d46-4f8b-a218-aa30910adbd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +86,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>;gx.evt.onblur(this,76);</value>
-      <webElementGuid>573e896e-87d9-4243-baf8-40d6fba2c1c6</webElementGuid>
+      <webElementGuid>7d04336a-b3da-4275-bdb3-08e651d43046</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,15 +95,15 @@
       <type>Main</type>
       <value>
 ...Seleccione...AB+AB-A+A-B+B-O+O-</value>
-      <webElementGuid>519dd541-8674-4593-96db-27a587856927</webElementGuid>
+      <webElementGuid>b68e5744-88ef-4af1-a224-1aef2f05c08e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012ECANGRUSAN&quot;)</value>
-      <webElementGuid>ad48a4e1-216a-4a14-b866-b4f4001b9b3d</webElementGuid>
+      <value>id(&quot;W0031W0007W0012ECANGRUSAN&quot;)</value>
+      <webElementGuid>f8a27de7-fee3-42f9-9197-5155366767a1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -103,7 +111,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='W0026W0007W0012ECANGRUSAN']</value>
-      <webElementGuid>882439ef-1669-4156-9356-db1d88172484</webElementGuid>
+      <webElementGuid>bc2a3eaf-1b77-45c8-b1b2-077f30d451d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +119,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0026W0007W0012GROUP0TABLECONTENT']/div[4]/div/div/div/select</value>
-      <webElementGuid>2ae696bf-84da-4f83-a7e5-f9492264fa42</webElementGuid>
+      <webElementGuid>fe714766-aede-4c1b-848f-115a26d65906</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo Sanguineo'])[1]/following::select[1]</value>
-      <webElementGuid>b6a83c1f-8189-4510-8e3d-7aa06a3bae6a</webElementGuid>
+      <webElementGuid>72805981-03e6-487b-8667-ff8026a3b1d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Género'])[1]/following::select[2]</value>
-      <webElementGuid>4c350c73-6a25-4fcb-8268-030a2e900718</webElementGuid>
+      <webElementGuid>141baede-cfc7-495c-b325-f15a9ecf4a03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +143,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='País Expedición'])[1]/preceding::select[1]</value>
-      <webElementGuid>4a2f097e-285b-4864-a85e-07d266a57c39</webElementGuid>
+      <webElementGuid>9768f51c-ba44-4763-bbb6-403ad1034963</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +151,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Departamento Expedición'])[1]/preceding::select[2]</value>
-      <webElementGuid>2e0352bb-7f2c-4e59-acc8-e24f8e50cb72</webElementGuid>
+      <webElementGuid>65451461-9482-4131-aaa1-8de970bbce03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +159,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/select</value>
-      <webElementGuid>23b05256-7b09-4301-ab1d-3e5888b00bd1</webElementGuid>
+      <webElementGuid>3bf0d163-014b-41b9-9684-6c222e25c8f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,6 +169,6 @@
       <value>//select[@id = 'W0026W0007W0012ECANGRUSAN' and @name = 'W0026W0007W0012ECANGRUSAN' and (text() = '
 ...Seleccione...AB+AB-A+A-B+B-O+O-' or . = '
 ...Seleccione...AB+AB-A+A-B+B-O+O-')]</value>
-      <webElementGuid>def39984-5630-4ecb-86ea-7a0d795da068</webElementGuid>
+      <webElementGuid>a2332e04-e58f-4aa3-b107-c6bbcb22d3d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

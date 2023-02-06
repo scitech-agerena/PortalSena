@@ -6,15 +6,19 @@
    <elementGuidId>04b897ac-1f5b-46bf-8716-5f71e94c7392</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='W0026W0007W0012ECANEXPMUNSEC']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012ECANEXPMUNSEC</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;W0031W0007W0012ECANEXPMUNSEC&quot;)[count(. | //*[@id = 'W0031W0007W0012ECANEXPMUNSEC' and @name = 'W0031W0007W0012ECANEXPMUNSEC']) = count(//*[@id = 'W0031W0007W0012ECANEXPMUNSEC' and @name = 'W0031W0007W0012ECANEXPMUNSEC'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0026W0007W0012ECANEXPMUNSEC']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>ee28724a-5280-4224-afd3-0e7691c8e7d4</webElementGuid>
+      <webElementGuid>e65542ea-5afb-4397-ad1f-f7dadeb94ec7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANEXPMUNSEC</value>
-      <webElementGuid>08aafc79-0aa0-4a83-89cf-194125b112a9</webElementGuid>
+      <value>W0031W0007W0012ECANEXPMUNSEC</value>
+      <webElementGuid>f02428cc-00cb-4f75-903d-232222eff475</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANEXPMUNSEC</value>
-      <webElementGuid>403324eb-2145-4176-95ce-1578b9555c3d</webElementGuid>
+      <value>W0031W0007W0012ECANEXPMUNSEC</value>
+      <webElementGuid>560c47a2-eddb-4531-a01e-0dc76073424b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Attribute_Required form-control</value>
-      <webElementGuid>6f422d72-456c-451c-9479-4dcab7f20e7d</webElementGuid>
+      <webElementGuid>56978df8-b598-4111-a383-eac05849607e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>data-gxoch0</name>
       <type>Main</type>
       <value>if(!(gx.evt.jsEvent(this))) return false;</value>
-      <webElementGuid>b8b0d2f5-f8ce-43a3-9579-379f2bfce1f4</webElementGuid>
+      <webElementGuid>fa642c59-fa73-4b41-aa57-97fc4630b61a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 90,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>d28a877d-eab9-42f6-9b5a-26cc15a76a6c</webElementGuid>
+      <webElementGuid>fd4e066c-bcb9-4c36-9317-a33caf81d376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>;gx.evt.onchange(this, event)</value>
-      <webElementGuid>bfe9155a-cd69-4129-9fd9-18ba5b5fdda6</webElementGuid>
+      <webElementGuid>d25ead7e-0984-444b-9197-5d3ae6e5551d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>;gx.evt.onblur(this,90);</value>
-      <webElementGuid>e81852be-d649-4c7a-beb1-bc3c1def4d41</webElementGuid>
+      <webElementGuid>791445b1-82df-4979-bc66-580eb96e2d32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>data-gxoldvalue</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>b013076a-2035-4d93-98a3-6e6a3a9fd0dc</webElementGuid>
+      <webElementGuid>ac39fea5-30b4-4c40-b2a7-d14497d2c07d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,24 +98,24 @@
       <name>data-gxvalid</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>67c71ff2-1e11-4e25-b6c7-21306848b614</webElementGuid>
+      <webElementGuid>87d779a6-72b4-42d0-bf61-7b323973719d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
 Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARBUCARAMANGACABRERACALIFORNIACAPITANEJOCARCASÍCEPITÁCERRITOCHARALÁCHARTACHIMACHIPATÁCIMITARRACONCEPCIÓNCONFINESCONTRATACIÓNCOROMOROCURITÍEL CARMEN DE CHUCURÍEL GUACAMAYOEL PEÑÓNEL PLAYÓNENCINOENCISOFLORIDABLANCAFLORIÁNGALÁNGIRÓNGUACAGUADALUPEGUAPOTÁGUAVATÁGÁMBITAGÜEPSAHATOJESÚS MARÍAJORDÁNLA BELLEZALA PAZLANDAZURILEBRIJALOS SANTOSMACARAVITAMATANZAMOGOTESMOLAGAVITAMÁLAGAOCAMONTEOIBAONZAGAPALMARPALMAS DEL SOCORROPIEDECUESTAPINCHOTEPUENTE NACIONALPUERTO PARRAPUERTO WILCHESPÁRAMORIONEGROSABANA DE TORRESSAN ANDRÉSSAN BENITOSAN GILSAN JOAQUÍNSAN JOSÉ DE MIRANDASAN MIGUELSAN VICENTE DE CHUCURÍSANTA BÁRBARASANTA HELENA DEL OPÓNSIMACOTASOCORROSUAITASUCRESURATÁTONAVALLE DE SAN JOSÉVETASVILLANUEVAVÉLEZZAPATOCA</value>
-      <webElementGuid>db514c7c-f285-492a-9549-57e4dfcaf1c7</webElementGuid>
+      <webElementGuid>25136fe8-8708-47f9-b039-d00d02f9d764</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012ECANEXPMUNSEC&quot;)</value>
-      <webElementGuid>a191ed69-1907-48be-8e14-41867361f9d2</webElementGuid>
+      <value>id(&quot;W0031W0007W0012ECANEXPMUNSEC&quot;)</value>
+      <webElementGuid>599c1640-f997-4c90-b9b3-4ab33a408ebd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -119,7 +123,7 @@ Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARB
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='W0026W0007W0012ECANEXPMUNSEC']</value>
-      <webElementGuid>95e11eeb-971d-442a-b572-a42b502c2089</webElementGuid>
+      <webElementGuid>cbc393ba-5d25-4237-9e43-ccc427e2f29d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +131,7 @@ Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARB
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0026W0007W0012GROUP0TABLECONTENT']/div[6]/div/div/div/select</value>
-      <webElementGuid>82238dc7-f392-4464-b26e-25e08f15c7b5</webElementGuid>
+      <webElementGuid>14d78552-13d6-495c-98a1-f7e52c56c6c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +139,7 @@ Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARB
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciudad Expedición'])[1]/following::select[1]</value>
-      <webElementGuid>567f2495-632e-4127-8c63-8090562209ee</webElementGuid>
+      <webElementGuid>9f6ce967-c9bf-4487-8c31-4475fad5f420</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +147,7 @@ Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARB
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Departamento Expedición'])[1]/following::select[2]</value>
-      <webElementGuid>29326791-5927-417e-b8aa-510a46bb8043</webElementGuid>
+      <webElementGuid>ea62db23-a3f8-4b2c-a43f-0a28392f18ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +155,7 @@ Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARB
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Expedición*'])[1]/preceding::select[1]</value>
-      <webElementGuid>e00e80ed-de4e-41c7-8602-ab192900fee7</webElementGuid>
+      <webElementGuid>3013278a-8640-4835-b091-865d6d2e7512</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,7 +163,7 @@ Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARB
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='País Nacimiento'])[1]/preceding::select[1]</value>
-      <webElementGuid>fbcb5225-3e81-4c88-8b8b-34e70f2e3b55</webElementGuid>
+      <webElementGuid>acc61d9c-f4c6-40fc-bb05-e1f534f88845</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -167,7 +171,7 @@ Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARB
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div/div/select</value>
-      <webElementGuid>91797878-d9ea-43aa-932e-5a9e1772f879</webElementGuid>
+      <webElementGuid>c7f2b315-c821-4e54-b2bc-f8c949a7935f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -177,6 +181,6 @@ Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARB
       <value>//select[@id = 'W0026W0007W0012ECANEXPMUNSEC' and @name = 'W0026W0007W0012ECANEXPMUNSEC' and (text() = '
 Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARBUCARAMANGACABRERACALIFORNIACAPITANEJOCARCASÍCEPITÁCERRITOCHARALÁCHARTACHIMACHIPATÁCIMITARRACONCEPCIÓNCONFINESCONTRATACIÓNCOROMOROCURITÍEL CARMEN DE CHUCURÍEL GUACAMAYOEL PEÑÓNEL PLAYÓNENCINOENCISOFLORIDABLANCAFLORIÁNGALÁNGIRÓNGUACAGUADALUPEGUAPOTÁGUAVATÁGÁMBITAGÜEPSAHATOJESÚS MARÍAJORDÁNLA BELLEZALA PAZLANDAZURILEBRIJALOS SANTOSMACARAVITAMATANZAMOGOTESMOLAGAVITAMÁLAGAOCAMONTEOIBAONZAGAPALMARPALMAS DEL SOCORROPIEDECUESTAPINCHOTEPUENTE NACIONALPUERTO PARRAPUERTO WILCHESPÁRAMORIONEGROSABANA DE TORRESSAN ANDRÉSSAN BENITOSAN GILSAN JOAQUÍNSAN JOSÉ DE MIRANDASAN MIGUELSAN VICENTE DE CHUCURÍSANTA BÁRBARASANTA HELENA DEL OPÓNSIMACOTASOCORROSUAITASUCRESURATÁTONAVALLE DE SAN JOSÉVETASVILLANUEVAVÉLEZZAPATOCA' or . = '
 Seleccione...AGUADAALBANIAARATOCABARBOSABARICHARABARRANCABERMEJABETULIABOLÍVARBUCARAMANGACABRERACALIFORNIACAPITANEJOCARCASÍCEPITÁCERRITOCHARALÁCHARTACHIMACHIPATÁCIMITARRACONCEPCIÓNCONFINESCONTRATACIÓNCOROMOROCURITÍEL CARMEN DE CHUCURÍEL GUACAMAYOEL PEÑÓNEL PLAYÓNENCINOENCISOFLORIDABLANCAFLORIÁNGALÁNGIRÓNGUACAGUADALUPEGUAPOTÁGUAVATÁGÁMBITAGÜEPSAHATOJESÚS MARÍAJORDÁNLA BELLEZALA PAZLANDAZURILEBRIJALOS SANTOSMACARAVITAMATANZAMOGOTESMOLAGAVITAMÁLAGAOCAMONTEOIBAONZAGAPALMARPALMAS DEL SOCORROPIEDECUESTAPINCHOTEPUENTE NACIONALPUERTO PARRAPUERTO WILCHESPÁRAMORIONEGROSABANA DE TORRESSAN ANDRÉSSAN BENITOSAN GILSAN JOAQUÍNSAN JOSÉ DE MIRANDASAN MIGUELSAN VICENTE DE CHUCURÍSANTA BÁRBARASANTA HELENA DEL OPÓNSIMACOTASOCORROSUAITASUCRESURATÁTONAVALLE DE SAN JOSÉVETASVILLANUEVAVÉLEZZAPATOCA')]</value>
-      <webElementGuid>241c4c70-3825-49f8-8202-894e6dccaf91</webElementGuid>
+      <webElementGuid>8706df26-1055-4c9d-8bef-23582a5b4b14</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

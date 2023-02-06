@@ -6,15 +6,21 @@
    <elementGuidId>34caf0c1-a820-43a9-b4ae-aaa765b1bf57</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='W0026W0007W0012ECANEMPSEN']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012ECANEMPSEN</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'W0031W0007W0012ECANEMPSEN' and @name = 'W0031W0007W0012ECANEMPSEN' and (text() = '
+Seleccione...SiNo' or . = '
+Seleccione...SiNo')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0026W0007W0012ECANEMPSEN']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +28,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>dd7af2e4-b191-48ff-9b6f-7cddf32971bd</webElementGuid>
+      <webElementGuid>97ff2a07-c629-4115-994e-97861fd2138d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANEMPSEN</value>
-      <webElementGuid>fa9c0310-526e-4c56-a818-c4e4b6cf4481</webElementGuid>
+      <value>W0031W0007W0012ECANEMPSEN</value>
+      <webElementGuid>b9f4bd85-e8fb-4fc6-a4ce-ef0cc97b90e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANEMPSEN</value>
-      <webElementGuid>528148bd-eb0f-4f39-b68a-0feac8019c84</webElementGuid>
+      <value>W0031W0007W0012ECANEMPSEN</value>
+      <webElementGuid>603b3fea-c5c4-4236-88ea-5a1f69020bb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +52,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Attribute_Required form-control</value>
-      <webElementGuid>d768b33d-61fd-4486-b8c5-10b390ba15ad</webElementGuid>
+      <webElementGuid>94780d6d-633c-4ed3-9272-78f268d5795e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +60,7 @@
       <name>data-gxoch0</name>
       <type>Main</type>
       <value>if(!(gx.evt.jsEvent(this))) return false;</value>
-      <webElementGuid>42453f4d-03c7-4fe4-b068-41dba16af8dc</webElementGuid>
+      <webElementGuid>450e92d4-5f34-4062-ac87-46d7de708bfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +68,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 155,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>b66799cf-66b8-4a13-970c-fd08ca0f4834</webElementGuid>
+      <webElementGuid>a9de6366-6a33-4f29-95fc-8a9acb7cd850</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +76,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>;gx.evt.onchange(this, event)</value>
-      <webElementGuid>f6f8446e-e56f-4bdd-97c7-b4eab797806a</webElementGuid>
+      <webElementGuid>71d29811-214f-4aa1-a258-fb217267432e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +84,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>;gx.evt.onblur(this,155);</value>
-      <webElementGuid>45a15177-4bc1-4e20-8a09-8db6f015b331</webElementGuid>
+      <webElementGuid>9498daba-d251-49a3-9d8d-6cd06d54a6e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,15 +93,15 @@
       <type>Main</type>
       <value>
 Seleccione...SiNo</value>
-      <webElementGuid>55283db3-7f17-4b2e-81a1-af51a8f97933</webElementGuid>
+      <webElementGuid>2e7ba73d-5b3b-4810-b863-896237019d58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012ECANEMPSEN&quot;)</value>
-      <webElementGuid>f18a2e41-9856-437a-908d-66c06627eea5</webElementGuid>
+      <value>id(&quot;W0031W0007W0012ECANEMPSEN&quot;)</value>
+      <webElementGuid>148034c7-6dbc-481e-90c9-769f77c712e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -103,7 +109,7 @@ Seleccione...SiNo</value>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='W0026W0007W0012ECANEMPSEN']</value>
-      <webElementGuid>2a94ffdb-ddca-4b60-a53b-fb4641c6e2f8</webElementGuid>
+      <webElementGuid>d086a3b9-0718-4404-a92e-f4e3bf4bfb63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +117,7 @@ Seleccione...SiNo</value>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0026W0007W0012GROUP0TABLECONTENT']/div[13]/div/div/div/select</value>
-      <webElementGuid>834e6608-6b1d-4356-b55e-58e4aa509dee</webElementGuid>
+      <webElementGuid>24ae3306-fa59-422a-acf9-21387949057d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +125,7 @@ Seleccione...SiNo</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado Sena'])[1]/following::select[1]</value>
-      <webElementGuid>1f7fe5cd-dc05-4761-b876-104ba736bdf3</webElementGuid>
+      <webElementGuid>41bf53f2-1e4d-4170-b336-6c96d69f2f1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +133,7 @@ Seleccione...SiNo</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición Laboral'])[1]/following::select[2]</value>
-      <webElementGuid>728a18fe-2f2c-45d0-b53d-4bfe6b4c4e0c</webElementGuid>
+      <webElementGuid>0d30a0f3-1120-4a0e-bd78-e6367315541f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +141,7 @@ Seleccione...SiNo</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Empleado'])[1]/preceding::select[1]</value>
-      <webElementGuid>59d03a78-cc3c-4c64-9d18-61e8939089df</webElementGuid>
+      <webElementGuid>cd111c28-9bca-4393-84ad-6549d241b42b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +149,7 @@ Seleccione...SiNo</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EncontroCRM'])[1]/preceding::select[2]</value>
-      <webElementGuid>ab78aea8-1a4f-4a14-af22-1b03d78aaa3a</webElementGuid>
+      <webElementGuid>513ea211-106f-48d1-bf10-4abda2299fda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +157,7 @@ Seleccione...SiNo</value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[13]/div/div/div/select</value>
-      <webElementGuid>f70a5b0c-2a14-4c06-a442-0dccfb392fdf</webElementGuid>
+      <webElementGuid>90e41d9f-69f6-4715-90f2-a1890ad0489d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,6 +167,6 @@ Seleccione...SiNo</value>
       <value>//select[@id = 'W0026W0007W0012ECANEMPSEN' and @name = 'W0026W0007W0012ECANEMPSEN' and (text() = '
 Seleccione...SiNo' or . = '
 Seleccione...SiNo')]</value>
-      <webElementGuid>14373288-fe61-4f9f-9a20-5e736f55edc8</webElementGuid>
+      <webElementGuid>fcc81e8d-2f2b-4ed5-be24-48956e4983b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

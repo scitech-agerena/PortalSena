@@ -6,15 +6,21 @@
    <elementGuidId>efd3bac7-c22e-4d39-93fa-6a7709b4b750</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='W0026W0007W0012ECANGEN']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012ECANGEN</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'W0031W0007W0012ECANGEN' and @name = 'W0031W0007W0012ECANGEN' and (text() = '
+...Seleccione...HombreMujer' or . = '
+...Seleccione...HombreMujer')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0026W0007W0012ECANGEN']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +28,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>424aa84d-6aff-4094-ab55-6cbcc91abfa2</webElementGuid>
+      <webElementGuid>1b1fee24-66cb-4d93-b226-af998c1c2a31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANGEN</value>
-      <webElementGuid>cfbd7e48-1c77-42ff-b1ef-3d2e2c9cbd9f</webElementGuid>
+      <value>W0031W0007W0012ECANGEN</value>
+      <webElementGuid>94b8c3cf-1cdb-494d-8675-684fe4bf167c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANGEN</value>
-      <webElementGuid>ce60dd40-24aa-4d07-8ead-b1744e3d8731</webElementGuid>
+      <value>W0031W0007W0012ECANGEN</value>
+      <webElementGuid>9f7574e7-ccfa-4eb7-a9bc-866402c921e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +52,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Attribute_Required form-control</value>
-      <webElementGuid>6150d194-6410-4b56-aeec-0e070940b9eb</webElementGuid>
+      <webElementGuid>f36f0ca9-6112-43ab-8507-a2c76c5a93c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +60,7 @@
       <name>data-gxoch0</name>
       <type>Main</type>
       <value>if(!(gx.evt.jsEvent(this))) return false;</value>
-      <webElementGuid>d9cd2290-062f-46f4-976c-9a0402b6939b</webElementGuid>
+      <webElementGuid>2a9caf28-0ee3-45ff-8838-1d5f2cd1b859</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +68,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 71,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>43d2923a-6e7c-4aa8-bda2-ab7d1bdc70c8</webElementGuid>
+      <webElementGuid>da93ff73-cedf-40b3-b476-c1297facb3c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +76,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>;gx.evt.onchange(this, event)</value>
-      <webElementGuid>ff48bcb3-c497-47c2-98ab-137bc9d98aa1</webElementGuid>
+      <webElementGuid>9b07d157-63b2-4352-b4d0-987623d9cfd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +84,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>;gx.evt.onblur(this,71);</value>
-      <webElementGuid>a6e0a0ba-e9da-4ced-bae9-b5b16f5ca8fd</webElementGuid>
+      <webElementGuid>2626d045-fc98-4d3d-87ae-de12561f9c12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +92,7 @@
       <name>data-gxvalid</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7dc48cb2-56ba-4760-989a-4c83ffd13cb1</webElementGuid>
+      <webElementGuid>e697df3d-768f-437c-8832-fd347af24a2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -95,15 +101,15 @@
       <type>Main</type>
       <value>
 ...Seleccione...HombreMujer</value>
-      <webElementGuid>8d40bf82-f437-4506-908e-f7d6736f9d7b</webElementGuid>
+      <webElementGuid>0992655f-2058-44fa-b8ff-5c07a37b96cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012ECANGEN&quot;)</value>
-      <webElementGuid>e4cc0a29-e285-4683-b94f-8b9f33759000</webElementGuid>
+      <value>id(&quot;W0031W0007W0012ECANGEN&quot;)</value>
+      <webElementGuid>6b99078c-71c6-49c4-a4ff-ed62626eef1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -111,7 +117,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='W0026W0007W0012ECANGEN']</value>
-      <webElementGuid>c6af7bcd-df1e-4665-adcf-a7d3d16121b0</webElementGuid>
+      <webElementGuid>9f947af4-ff91-4b31-a714-618e05bf7d4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +125,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0026W0007W0012GROUP0TABLECONTENT']/div[3]/div[4]/div/div/select</value>
-      <webElementGuid>8737d826-822d-4a05-a234-faf0076ada31</webElementGuid>
+      <webElementGuid>a22b49b0-c9fd-42f0-a5bc-b4fab5ddccf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Género'])[1]/following::select[1]</value>
-      <webElementGuid>a2b2a169-f557-4900-a845-2feb3d16fea3</webElementGuid>
+      <webElementGuid>38e283f9-8250-432b-826f-9a56de2bb4b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Nacimiento*'])[1]/following::select[1]</value>
-      <webElementGuid>f85bdbb2-31c6-4822-b57e-d8b58fde250f</webElementGuid>
+      <webElementGuid>2569bb56-3df2-4a36-bbc6-114309481e35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo Sanguineo'])[1]/preceding::select[1]</value>
-      <webElementGuid>6fabbd90-c714-4694-8711-b6be820bf2e9</webElementGuid>
+      <webElementGuid>af844d85-c8df-4188-a8e9-1cc78e6a7be2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +157,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='País Expedición'])[1]/preceding::select[2]</value>
-      <webElementGuid>1804eb6c-9581-4d60-a11c-11eaf4eb6517</webElementGuid>
+      <webElementGuid>0e149c52-f3b0-4c30-a011-52152dbd93b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,7 +165,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/select</value>
-      <webElementGuid>1619617e-988d-4737-9cc6-ab5d0621f839</webElementGuid>
+      <webElementGuid>9da5a80b-ca1b-461d-99bd-8fe81d27709d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -169,6 +175,6 @@
       <value>//select[@id = 'W0026W0007W0012ECANGEN' and @name = 'W0026W0007W0012ECANGEN' and (text() = '
 ...Seleccione...HombreMujer' or . = '
 ...Seleccione...HombreMujer')]</value>
-      <webElementGuid>9c1834f1-fa2b-4a58-96fb-04a7fb602179</webElementGuid>
+      <webElementGuid>bba6f0c4-9550-4bac-b6e4-7dff692031f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

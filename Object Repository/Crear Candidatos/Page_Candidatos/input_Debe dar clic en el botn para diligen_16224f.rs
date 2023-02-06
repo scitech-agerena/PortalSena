@@ -6,15 +6,19 @@
    <elementGuidId>f19c1ceb-78a0-40f9-b84a-a45700f55f12</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='W0026W0007W0012REGISTRARINFORMACION']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012REGISTRARINFORMACION</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @name = 'W0031W0007W0012REGISTRARINFORMACION' and @id = 'W0031W0007W0012REGISTRARINFORMACION']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='W0026W0007W0012REGISTRARINFORMACION']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a94ec28d-925a-41cb-8b84-a8b34885f7dd</webElementGuid>
+      <webElementGuid>be079826-554a-4090-9607-27b85cf79e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,23 +34,23 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7163d08a-4c07-411a-ba2b-0ab5c0113dc9</webElementGuid>
+      <webElementGuid>50a55fe9-8686-4480-87d6-8581636ea504</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0026W0007W0012REGISTRARINFORMACION</value>
-      <webElementGuid>d4b53626-2304-454c-8d49-db0504006c79</webElementGuid>
+      <value>W0031W0007W0012REGISTRARINFORMACION</value>
+      <webElementGuid>e30103db-03e0-4384-9d66-e48aeffc48ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012REGISTRARINFORMACION</value>
-      <webElementGuid>3e8e8ebb-e9e1-466e-b10b-ec8356574e1e</webElementGuid>
+      <value>W0031W0007W0012REGISTRARINFORMACION</value>
+      <webElementGuid>ad3115a3-266b-4683-8323-fe6172b09a92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Registrar Información</value>
-      <webElementGuid>d1ae163a-0e6b-416f-a16b-63f79ae709e6</webElementGuid>
+      <webElementGuid>53fec128-f7e5-46c1-8fad-bd16d148dd39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>class</name>
       <type>Main</type>
       <value>K2BToolsButton_MainAction btn btn-default</value>
-      <webElementGuid>79b43f6e-70e7-418c-ad36-8d4887cfc8a9</webElementGuid>
+      <webElementGuid>4035ec6c-2bf3-4bc9-b835-4280f6367d1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>data-gx-evt</name>
       <type>Main</type>
       <value>7</value>
-      <webElementGuid>7899ee62-2e46-46f6-9d67-a5efd0eba07b</webElementGuid>
+      <webElementGuid>8a664a08-4f44-4ed4-b466-5f38e58639dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 232,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>c07936e2-969a-4e26-be97-ee7dc7e3799f</webElementGuid>
+      <webElementGuid>7ee1c966-2199-4c96-ac19-f7aa125714ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,23 +90,23 @@
       <name>data-gx-evt-control</name>
       <type>Main</type>
       <value>REGISTRARINFORMACION</value>
-      <webElementGuid>9c464b55-940f-4372-8a03-6467acd5f277</webElementGuid>
+      <webElementGuid>ff563cde-b08b-4292-8764-87b0e7ce40c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-gx-context</name>
       <type>Main</type>
-      <value>[&quot;W0026W0007W0012&quot;,false]</value>
-      <webElementGuid>69b810a5-99d8-417a-a7bf-f16160aed2ac</webElementGuid>
+      <value>[&quot;W0031W0007W0012&quot;,false]</value>
+      <webElementGuid>fa136888-86ef-4ce8-bb33-053d8fc63232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012REGISTRARINFORMACION&quot;)</value>
-      <webElementGuid>d2407a02-a869-41ac-98af-13e415b2a880</webElementGuid>
+      <value>id(&quot;W0031W0007W0012REGISTRARINFORMACION&quot;)</value>
+      <webElementGuid>86ed8039-46cc-423a-87fc-03d339bee57a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='W0026W0007W0012REGISTRARINFORMACION']</value>
-      <webElementGuid>617d24a9-82e9-41f5-a364-d02defee6e23</webElementGuid>
+      <webElementGuid>073dad00-4172-4eec-a798-981faaac440a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0026W0007W0012K2BTOOLSTABLE_ATTRIBUTECONTAINERLABELINFOADICIONALFIELDCONTAINER']/input</value>
-      <webElementGuid>5d256cfd-5250-413a-82c2-7b66be2d2f64</webElementGuid>
+      <webElementGuid>5bb288ff-81c4-4913-a970-c7b766273666</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>6259a8bf-2acb-4ba4-89a5-4e87d821b4b6</webElementGuid>
+      <webElementGuid>9368ac35-f134-4072-9b33-6a199d6c1945</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'button' and @name = 'W0026W0007W0012REGISTRARINFORMACION' and @id = 'W0026W0007W0012REGISTRARINFORMACION']</value>
-      <webElementGuid>6e370683-e467-4f22-9d31-998d777ea439</webElementGuid>
+      <webElementGuid>9a0bd978-c799-4ac6-b96c-654d402a4fe1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,7 +6,7 @@
    <UUID>390a9755-c7ee-4693-887b-a5a053ff235b</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\AGERENA\git\PortalSena\PortalSena.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\AGERENA\Katalon Studio\PortalSena.git\PortalSena.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -26,5 +26,5 @@
       </systemFolderList>
    </sourceContent>
    <timeStampInProperties>false</timeStampInProperties>
-   <type>GENERIC</type>
+   <type>WEBUI</type>
 </Project>

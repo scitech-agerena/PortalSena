@@ -6,15 +6,19 @@
    <elementGuidId>461fe757-391b-49a5-8673-c4e1caafb4a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='W0026W0007W0012vDEPSECNAC']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012vDEPSECNAC</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;W0031W0007W0012vDEPSECNAC&quot;)[count(. | //*[@id = 'W0031W0007W0012vDEPSECNAC' and @name = 'W0026W0007W0012vDEPSECNAC']) = count(//*[@id = 'W0031W0007W0012vDEPSECNAC' and @name = 'W0026W0007W0012vDEPSECNAC'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0031W0007W0012vDEPSECNAC']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>77372557-0cc5-4328-b702-a297e04acc36</webElementGuid>
+      <webElementGuid>23c979ea-5873-41a5-b75a-231dcc9d0cc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012vDEPSECNAC</value>
-      <webElementGuid>4b56e3c0-5e44-42b2-8622-18b1a2a8c0f5</webElementGuid>
+      <value>W0031W0007W0012vDEPSECNAC</value>
+      <webElementGuid>00ddc616-b776-4b8d-a5a7-dea9d8ce1448</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0026W0007W0012vDEPSECNAC</value>
-      <webElementGuid>cf535b9c-231a-4d2d-8cca-28e6e8738084</webElementGuid>
+      <value>W0031W0007W0012vDEPSECNAC</value>
+      <webElementGuid>85496c08-ec59-4e8e-9998-79dd42339a97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Attribute_Required form-control</value>
-      <webElementGuid>44beba39-f791-4067-83c0-851c3038dd36</webElementGuid>
+      <webElementGuid>28fc6767-a479-4045-be08-709acbbbdf25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>data-gxoch0</name>
       <type>Main</type>
       <value>if(!(gx.evt.jsEvent(this))) return false;</value>
-      <webElementGuid>07136cdc-2391-4c5d-950c-901f689fbc45</webElementGuid>
+      <webElementGuid>4733d320-9e72-44c1-b188-368bd3583ecc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 103,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>4f55a2c2-9295-42f4-995b-2848cc1f253c</webElementGuid>
+      <webElementGuid>b98a8253-5fc0-40b9-b89a-a0d0eb14e4c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>;gx.evt.onchange(this, event)</value>
-      <webElementGuid>7a6c14b8-1e43-4648-93f9-281bb1bbd453</webElementGuid>
+      <webElementGuid>6e1c6290-ef69-498f-99a1-c7bf10d27086</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>;gx.evt.onblur(this,103);</value>
-      <webElementGuid>348f9f55-6b18-4f00-951a-fb49daa25ce6</webElementGuid>
+      <webElementGuid>9fdaeca2-5e64-4fed-8595-ab9557f9d26f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>data-gxoldvalue</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>2d9a603c-0009-46f0-b5e3-1370204bd6c8</webElementGuid>
+      <webElementGuid>9a0235ac-b0ac-42a6-9f18-9f22a5eb3ff9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,24 +98,24 @@
       <name>data-gxvalid</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>128a083b-73f6-400e-9c3c-4584b597ca8b</webElementGuid>
+      <webElementGuid>3e6c6ef9-663a-4b03-9f47-6369e18fd64b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
 Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUETÁCASANARECAUCACESARCHOCÓCUNDINAMARCACÓRDOBAGUAINÍAGUAVIAREHUILALA GUAJIRAMAGDALENAMETANARIÑONORTE DE SANTANDERPUTUMAYOQUINDÍORISARALDASAN ANDRES Y PROVIDENCIASANTANDERSUCRETOLIMAVALLE DEL CAUCAVAUPÉSVICHADA</value>
-      <webElementGuid>04f3e1fd-6366-45a2-a4b2-644f3eb8f1b6</webElementGuid>
+      <webElementGuid>5d9172f7-a2fa-468b-8b11-ab82d385cdcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012vDEPSECNAC&quot;)</value>
-      <webElementGuid>c283633e-604c-4446-9822-4715c0e767d9</webElementGuid>
+      <value>id(&quot;W0031W0007W0012vDEPSECNAC&quot;)</value>
+      <webElementGuid>c4e8c54a-c2dd-44b7-aa38-89f12db5a605</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -119,7 +123,7 @@ Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUET
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='W0026W0007W0012vDEPSECNAC']</value>
-      <webElementGuid>b0869ebf-b7a7-43a7-89ad-d55556a9475d</webElementGuid>
+      <webElementGuid>6aee3716-09ad-42e6-b00d-33168a08ba75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +131,7 @@ Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUET
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0026W0007W0012GROUP0TABLECONTENT']/div[7]/div[2]/div/div/select</value>
-      <webElementGuid>bb48cefd-6837-4fc7-9e65-87f64ff6c31a</webElementGuid>
+      <webElementGuid>1116f604-e5eb-4c5d-8c1a-eb33cf4fff7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +139,7 @@ Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUET
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Departamento Nacimiento'])[1]/following::select[1]</value>
-      <webElementGuid>d3dff3eb-34f1-4bcf-8cf7-dc4e1dce6c8d</webElementGuid>
+      <webElementGuid>f2105c2a-c9ae-494b-a410-d9197dd5326f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +147,7 @@ Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUET
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='País Nacimiento'])[1]/following::select[2]</value>
-      <webElementGuid>1053d22d-6aa3-4e20-9bb5-2031242094e3</webElementGuid>
+      <webElementGuid>acf0f33a-627d-409f-ab14-ec26586c1133</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +155,7 @@ Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUET
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Municipio Nacimiento'])[1]/preceding::select[1]</value>
-      <webElementGuid>e4b567cd-bc7b-45b3-b99f-d80a412eab71</webElementGuid>
+      <webElementGuid>b6da4bb8-ab16-4bd5-b075-a03953dadf2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,7 +163,7 @@ Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUET
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Comunidad LGBTI'])[1]/preceding::select[2]</value>
-      <webElementGuid>198377ff-3314-4548-b5f4-595bb1f98bff</webElementGuid>
+      <webElementGuid>5b13b11b-8dcd-4473-a447-da65da9d7eda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -167,7 +171,7 @@ Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUET
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div[2]/div/div/select</value>
-      <webElementGuid>aa7d6899-9a6a-47c1-9dbe-6e083ef104c4</webElementGuid>
+      <webElementGuid>c02e0b5e-be1a-41d0-8492-67679a5c3eba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -177,6 +181,6 @@ Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUET
       <value>//select[@id = 'W0026W0007W0012vDEPSECNAC' and @name = 'W0026W0007W0012vDEPSECNAC' and (text() = '
 Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUETÁCASANARECAUCACESARCHOCÓCUNDINAMARCACÓRDOBAGUAINÍAGUAVIAREHUILALA GUAJIRAMAGDALENAMETANARIÑONORTE DE SANTANDERPUTUMAYOQUINDÍORISARALDASAN ANDRES Y PROVIDENCIASANTANDERSUCRETOLIMAVALLE DEL CAUCAVAUPÉSVICHADA' or . = '
 Seleccione...AMAZONASANTIOQUIAARAUCAATLÁNTICOBOGOTÁBOLÍVARBOYACÁCALDASCAQUETÁCASANARECAUCACESARCHOCÓCUNDINAMARCACÓRDOBAGUAINÍAGUAVIAREHUILALA GUAJIRAMAGDALENAMETANARIÑONORTE DE SANTANDERPUTUMAYOQUINDÍORISARALDASAN ANDRES Y PROVIDENCIASANTANDERSUCRETOLIMAVALLE DEL CAUCAVAUPÉSVICHADA')]</value>
-      <webElementGuid>31fde358-e460-4828-934a-33c2abaeeb24</webElementGuid>
+      <webElementGuid>b347f40b-38bf-47f0-961e-5b13a145ccce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

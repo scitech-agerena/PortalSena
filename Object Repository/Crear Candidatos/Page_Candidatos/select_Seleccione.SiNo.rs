@@ -6,15 +6,19 @@
    <elementGuidId>6fe57796-5dd6-43a3-80f8-977365584b51</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='W0026W0007W0012ECANINDCONDIS']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012ECANINDCONDIS</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;W0031W0007W0012ECANINDCONDIS&quot;)[count(. | //*[@id = 'W0031W0007W0012ECANINDCONDIS' and @name = 'W0031W0007W0012ECANINDCONDIS']) = count(//*[@id = 'W0031W0007W0012ECANINDCONDIS' and @name = 'W0031W0007W0012ECANINDCONDIS'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0026W0007W0012ECANINDCONDIS']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>2c9e8cc9-95b5-4ee2-bab1-d8038314d9c0</webElementGuid>
+      <webElementGuid>3217778d-e075-413e-98ee-944cc097a095</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANINDCONDIS</value>
-      <webElementGuid>0eb9478c-ffd9-4428-a43a-a96207c31948</webElementGuid>
+      <value>W0031W0007W0012ECANINDCONDIS</value>
+      <webElementGuid>d83bd942-3c83-4d8a-9607-ca8c1a2571b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANINDCONDIS</value>
-      <webElementGuid>4d896e90-db22-4036-996e-2fb37d2d5194</webElementGuid>
+      <value>W0031W0007W0012ECANINDCONDIS</value>
+      <webElementGuid>a47d3286-28e3-4b11-851f-4d462e7eb21e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Attribute_Required form-control</value>
-      <webElementGuid>8c43046b-35fc-42e9-bd65-564d9fea2728</webElementGuid>
+      <webElementGuid>0e9abe16-8c26-4c3a-b01f-16918f19b82e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>data-gxoch0</name>
       <type>Main</type>
       <value>if(gx.evt.jsEvent(this)) {gx.evt.execCliEvt('W0026W0007W0012',false,'e110m22_client',this);} else return false;</value>
-      <webElementGuid>06312464-4051-4de0-b2a8-14983ede21ad</webElementGuid>
+      <webElementGuid>f74c604f-3e11-4c1e-a308-e4139bce2623</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 140,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>c63f7a25-caf5-4644-b19e-d3dd1e37b75e</webElementGuid>
+      <webElementGuid>36624e39-b05b-4659-a9f1-c8ac2dd1d76e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>;gx.evt.onchange(this, event)</value>
-      <webElementGuid>32dfdbc7-c102-4fad-90ec-dd9cfbe630f4</webElementGuid>
+      <webElementGuid>01da4467-dfb4-4af3-a676-bd1301614530</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,24 +82,24 @@
       <name>onblur</name>
       <type>Main</type>
       <value>;gx.evt.onblur(this,140);</value>
-      <webElementGuid>01c33604-8d8f-48cf-9565-955b67189467</webElementGuid>
+      <webElementGuid>254dd597-5eed-4bb8-b7fa-32c24832a161</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
 Seleccione...SiNo</value>
-      <webElementGuid>707ee689-90f0-4dd1-8b59-5a75ee5f5f6e</webElementGuid>
+      <webElementGuid>c51e9a80-ac14-4d7c-a4bb-f9d2fa3e817c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012ECANINDCONDIS&quot;)</value>
-      <webElementGuid>197561d0-15d5-408b-a612-c5d48d40a10c</webElementGuid>
+      <value>id(&quot;W0031W0007W0012ECANINDCONDIS&quot;)</value>
+      <webElementGuid>fa23428a-8ff7-418c-98a4-53589f9f6cba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -103,7 +107,7 @@ Seleccione...SiNo</value>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='W0026W0007W0012ECANINDCONDIS']</value>
-      <webElementGuid>f9d02aed-145c-497b-b5da-709117d8331a</webElementGuid>
+      <webElementGuid>5640f839-0b65-469d-b322-1744113bfc11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@ Seleccione...SiNo</value>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0026W0007W0012K2BTOOLSTABLE_ATTRIBUTECONTAINERECANINDCONDISFIELDCONTAINER']/div/select</value>
-      <webElementGuid>e4d91cd4-aa57-4c84-996e-01c3ec155f9c</webElementGuid>
+      <webElementGuid>4653adfd-a3da-478f-8b78-7a80f3a0155b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +123,7 @@ Seleccione...SiNo</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición de discapacidad'])[2]/following::select[1]</value>
-      <webElementGuid>e5799826-c270-4abd-99bd-c42fa6152f50</webElementGuid>
+      <webElementGuid>9e5080ab-aebb-491d-827f-ec6c22d613e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +131,7 @@ Seleccione...SiNo</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición de discapacidad'])[1]/following::select[1]</value>
-      <webElementGuid>f24c12b0-9114-4008-bd95-0c14533841d2</webElementGuid>
+      <webElementGuid>d0e04e0d-ccbc-4e49-9099-a5cb5e061396</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +139,7 @@ Seleccione...SiNo</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Discapacidades'])[1]/preceding::select[1]</value>
-      <webElementGuid>aa57dafb-06d9-4c37-afd9-45549ee91ff3</webElementGuid>
+      <webElementGuid>3bfb3a6b-066e-480a-8f11-544875263132</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +147,7 @@ Seleccione...SiNo</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición Laboral'])[1]/preceding::select[1]</value>
-      <webElementGuid>a4cb9366-df52-4818-9e96-db03c70b30b1</webElementGuid>
+      <webElementGuid>5798b622-6dca-46e6-905f-305ab38d610b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +155,7 @@ Seleccione...SiNo</value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div/div/div[2]/div/div/select</value>
-      <webElementGuid>30da9483-64cc-4bf0-97ec-cebe83aa8aab</webElementGuid>
+      <webElementGuid>9483ae47-cded-4b28-9c79-e68fb098964a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,6 +165,6 @@ Seleccione...SiNo</value>
       <value>//select[@id = 'W0026W0007W0012ECANINDCONDIS' and @name = 'W0026W0007W0012ECANINDCONDIS' and (text() = '
 Seleccione...SiNo' or . = '
 Seleccione...SiNo')]</value>
-      <webElementGuid>196726dc-e08d-4b17-b81a-6121ebfd77fc</webElementGuid>
+      <webElementGuid>e60f59a3-0d23-4b35-8802-3421c304cedd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>6041d1a1-f75b-4788-a7f5-89a616552426</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='W0026W0007W0012ECANNACMUNSEC']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012ECANNACMUNSEC</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;W0031W0007W0012ECANNACMUNSEC&quot;)[count(. | //*[@id = 'W0031W0007W0012ECANNACMUNSEC' and @name = 'W0031W0007W0012ECANNACMUNSEC']) = count(//*[@id = 'W0031W0007W0012ECANNACMUNSEC' and @name = 'W0031W0007W0012ECANNACMUNSEC'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0031W0007W0012ECANNACMUNSEC']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>f7a0a1dc-e5f0-4772-920b-e9c42789f1ea</webElementGuid>
+      <webElementGuid>a328e78d-68b8-4ce6-8604-7886a34ec1e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANNACMUNSEC</value>
-      <webElementGuid>900cddb8-047e-4c84-98bd-ec7be3475897</webElementGuid>
+      <value>W0031W0007W0012ECANNACMUNSEC</value>
+      <webElementGuid>4be3b44b-340e-4184-b37d-e96cd1e75d11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0026W0007W0012ECANNACMUNSEC</value>
-      <webElementGuid>8b96e21f-901a-49e1-b48c-36a49c85e622</webElementGuid>
+      <value>W0031W0007W0012ECANNACMUNSEC</value>
+      <webElementGuid>76f9395e-dd10-458f-8210-3cd100e802b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Attribute_Required form-control</value>
-      <webElementGuid>7226e2ba-7b8b-4eab-a3eb-5bc341880fee</webElementGuid>
+      <webElementGuid>611dd451-cd57-4743-838a-20307c8ff355</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>data-gxoch0</name>
       <type>Main</type>
       <value>if(!(gx.evt.jsEvent(this))) return false;</value>
-      <webElementGuid>cab0ba97-0fb3-4ad0-aee6-f40775225d10</webElementGuid>
+      <webElementGuid>0195de0c-d3e1-498d-9454-ae0f2ce4096a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 108,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>6e867196-3484-4a69-866f-9df0eaec6207</webElementGuid>
+      <webElementGuid>bb73f830-17d8-41a0-9a96-404d857f06d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>;gx.evt.onchange(this, event)</value>
-      <webElementGuid>8de73331-a46a-4edd-9c71-4a45f12305de</webElementGuid>
+      <webElementGuid>e0b2cb7a-add2-4c1c-b616-11bb8b35edf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>;gx.evt.onblur(this,108);</value>
-      <webElementGuid>3db9caf9-916a-417a-8c89-c4874ea1c4f0</webElementGuid>
+      <webElementGuid>5c9fbe0d-e459-48b1-9168-27e4d161d95f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>data-gxoldvalue</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>bc44b159-b7b7-4e63-989d-93fd14436606</webElementGuid>
+      <webElementGuid>b384094c-2cea-46dc-a1ac-eb0211fee7b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,40 +98,40 @@
       <name>data-gxvalid</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>f67089d2-5076-4a3f-ae19-a76bd23b4631</webElementGuid>
+      <webElementGuid>ada56c49-5500-4ca8-9be9-88cda1df3276</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
 Seleccione...ARAUCAARAUQUITACRAVO NORTEFORTULPUERTO RONDÓNSARAVENATAME</value>
-      <webElementGuid>aac68454-8f24-4a0f-812a-47da8e0f6e91</webElementGuid>
+      <webElementGuid>69790f0c-4754-48d0-af2f-bccb3bfc0092</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012ECANNACMUNSEC&quot;)</value>
-      <webElementGuid>e5715c2e-dcce-403d-bc67-36312ba757cd</webElementGuid>
+      <value>id(&quot;W0031W0007W0012ECANNACMUNSEC&quot;)</value>
+      <webElementGuid>1954837d-7899-446c-9839-8deaeaa78a90</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='W0026W0007W0012ECANNACMUNSEC']</value>
-      <webElementGuid>8430fe6e-5e7e-4ef9-97dc-7d0d31e846f5</webElementGuid>
+      <value>//select[@id='W0031W0007W0012ECANNACMUNSEC']</value>
+      <webElementGuid>efcb9a74-3e3e-4f01-9ee7-e5735ec3a9f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='W0026W0007W0012GROUP0TABLECONTENT']/div[8]/div/div/div/select</value>
-      <webElementGuid>85601fdd-6016-420a-aa47-4e50670331ec</webElementGuid>
+      <value>//div[@id='W0031W0007W0012GROUP0TABLECONTENT']/div[8]/div/div/div/select</value>
+      <webElementGuid>3bc408ab-29f5-4ff0-8b84-351b1f999b95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +139,7 @@ Seleccione...ARAUCAARAUQUITACRAVO NORTEFORTULPUERTO RONDÓNSARAVENATAME</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Municipio Nacimiento'])[1]/following::select[1]</value>
-      <webElementGuid>3557fff3-03e5-47f1-834d-76039d01f38a</webElementGuid>
+      <webElementGuid>0798dfa1-df93-48a0-997b-c58157e74993</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +147,7 @@ Seleccione...ARAUCAARAUQUITACRAVO NORTEFORTULPUERTO RONDÓNSARAVENATAME</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Departamento Nacimiento'])[1]/following::select[2]</value>
-      <webElementGuid>6a39eb14-0240-4ffd-8f88-4976695c4ee8</webElementGuid>
+      <webElementGuid>89545a25-b019-43f6-9686-44385a2bdab1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +155,7 @@ Seleccione...ARAUCAARAUQUITACRAVO NORTEFORTULPUERTO RONDÓNSARAVENATAME</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Comunidad LGBTI'])[1]/preceding::select[1]</value>
-      <webElementGuid>030aa617-af6d-4d09-aadc-d881ba72e6f0</webElementGuid>
+      <webElementGuid>31fdfe28-3ef3-41b7-9faf-591e2656b774</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,7 +163,7 @@ Seleccione...ARAUCAARAUQUITACRAVO NORTEFORTULPUERTO RONDÓNSARAVENATAME</value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Libreta Militar'])[1]/preceding::select[2]</value>
-      <webElementGuid>d17b3d6b-f053-48a7-a61e-2f6d5618dcfa</webElementGuid>
+      <webElementGuid>dbd84b42-9d39-4bb9-b1e9-4bc8b9485033</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -167,16 +171,16 @@ Seleccione...ARAUCAARAUQUITACRAVO NORTEFORTULPUERTO RONDÓNSARAVENATAME</value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/div/select</value>
-      <webElementGuid>28683cb0-ed88-475b-9fcd-aba89f8ac303</webElementGuid>
+      <webElementGuid>1ae1177b-f0b8-4204-b72c-dde81ddf0609</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@id = 'W0026W0007W0012ECANNACMUNSEC' and @name = 'W0026W0007W0012ECANNACMUNSEC' and (text() = '
+      <value>//select[@id = 'W0031W0007W0012ECANNACMUNSEC' and @name = 'W0026W0007W0012ECANNACMUNSEC' and (text() = '
 Seleccione...ARAUCAARAUQUITACRAVO NORTEFORTULPUERTO RONDÓNSARAVENATAME' or . = '
 Seleccione...ARAUCAARAUQUITACRAVO NORTEFORTULPUERTO RONDÓNSARAVENATAME')]</value>
-      <webElementGuid>e3273106-e89b-43b8-816b-a64d39fe17ce</webElementGuid>
+      <webElementGuid>9fb8bd24-d01a-434e-aaa7-ba60e688b202</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
