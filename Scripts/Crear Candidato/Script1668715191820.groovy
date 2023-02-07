@@ -121,6 +121,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Pag
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.EMPLEADOEN BSQUEDA DE EMP_3a53bd'), 
     '1', true)
 
+WebUI.selectOptionByValue(findTestObject('Crear Candidatos/Page_Candidatos/select_Seleccione.50.000 A 600.000ALTOSBAJOS'), 
+    '1', false)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SiNo_1'), 
     '2', true)
 
@@ -130,23 +133,15 @@ WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/i
 
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Sin Asignar Profesiones_CONFIRMARSELECCION'))
 
-WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Debe dar clic en el botn para diligen_16224f'))
+WebUI.selectOptionByValue(findTestObject('Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 1'), '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO (1)'), 
-    '2', true)
+WebUI.selectOptionByValue(findTestObject('Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 2'), '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_1 (1)'), 
-    '2', true)
+WebUI.selectOptionByValue(findTestObject('Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 3'), '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_1_2'), 
-    '2', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_1_2_3'), 
-    '2', true)
+WebUI.selectOptionByValue(findTestObject('Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 4'), '2', true)
 
 WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input__CONFIRMAR'))
 
 WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Direccin_W0026W0007W0012ECANDIRDOM'), 
     'Calle 1 # 2 - 03')
@@ -170,7 +165,7 @@ WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos
     '3211111111')
 
 WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_E-mail_W0026W0007W0012ECANEMA'), 
-    'correoprueba@gmail.com')
+    'correoprueba2023@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Nombre_W0026W0007W0012ECAMEMENOM'), 
     'Ana Maria Galviz')
@@ -189,4 +184,10 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_reas de Inters_CONFIRMAR'))
 
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_-        000000_W0026W0007W0012ENTER'))
+
+WebUI.delay(5)
+
+WebUI.verifyEqual(findTestObject(null), '')
+
+WebUI.takeScreenshot()
 

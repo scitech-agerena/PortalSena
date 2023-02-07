@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and @name = 'W0031W0007W0012REGISTRARINFORMACION' and @id = 'W0031W0007W0012REGISTRARINFORMACION']</value>
+         <value>//*[@type = 'button' and @name = 'W0031W0007W0012REGISTRARINFORMACION' and @id = 'W0031W0007W0012REGISTRARINFORMACION' and @data-gx-evt-control = 'REGISTRARINFORMACION']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>be079826-554a-4090-9607-27b85cf79e56</webElementGuid>
+      <webElementGuid>5ecf5176-c9c5-4e90-99e6-d69307a1471a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>50a55fe9-8686-4480-87d6-8581636ea504</webElementGuid>
+      <webElementGuid>398f426c-d536-4a7f-83bb-1758ceb97193</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>W0031W0007W0012REGISTRARINFORMACION</value>
-      <webElementGuid>e30103db-03e0-4384-9d66-e48aeffc48ac</webElementGuid>
+      <webElementGuid>590257e4-3d69-4f57-99dc-8b4e2f93c21a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>W0031W0007W0012REGISTRARINFORMACION</value>
-      <webElementGuid>ad3115a3-266b-4683-8323-fe6172b09a92</webElementGuid>
+      <webElementGuid>d8f299f2-14ae-4791-b84e-5fe03d338d5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Registrar Información</value>
-      <webElementGuid>53fec128-f7e5-46c1-8fad-bd16d148dd39</webElementGuid>
+      <webElementGuid>7c11e571-50f5-4db9-8a17-0fe869129cd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>class</name>
       <type>Main</type>
       <value>K2BToolsButton_MainAction btn btn-default</value>
-      <webElementGuid>4035ec6c-2bf3-4bc9-b835-4280f6367d1c</webElementGuid>
+      <webElementGuid>dff36bba-d746-4500-8026-9d35880b5f70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>data-gx-evt</name>
       <type>Main</type>
       <value>7</value>
-      <webElementGuid>8a664a08-4f44-4ed4-b466-5f38e58639dc</webElementGuid>
+      <webElementGuid>eb0ccb3a-d620-4a3e-acda-cc8413534f4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,15 +82,15 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 232,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>7ee1c966-2199-4c96-ac19-f7aa125714ee</webElementGuid>
+      <webElementGuid>a4719f9d-f1eb-4403-9f6e-7a3a5e07c12f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-gx-evt-control</name>
       <type>Main</type>
       <value>REGISTRARINFORMACION</value>
-      <webElementGuid>ff563cde-b08b-4292-8764-87b0e7ce40c2</webElementGuid>
+      <webElementGuid>219a4803-425c-4d35-86ac-499ec71c93d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>data-gx-context</name>
       <type>Main</type>
       <value>[&quot;W0031W0007W0012&quot;,false]</value>
-      <webElementGuid>fa136888-86ef-4ce8-bb33-053d8fc63232</webElementGuid>
+      <webElementGuid>dcb7daa1-d4a3-4192-bc24-14d652dfcd4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;W0031W0007W0012REGISTRARINFORMACION&quot;)</value>
-      <webElementGuid>86ed8039-46cc-423a-87fc-03d339bee57a</webElementGuid>
+      <webElementGuid>af18638a-bdee-4c9a-932c-b48d3fa2400c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='W0026W0007W0012REGISTRARINFORMACION']</value>
-      <webElementGuid>073dad00-4172-4eec-a798-981faaac440a</webElementGuid>
+      <webElementGuid>e0021906-5298-4219-98b9-4b2c7f714819</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0026W0007W0012K2BTOOLSTABLE_ATTRIBUTECONTAINERLABELINFOADICIONALFIELDCONTAINER']/input</value>
-      <webElementGuid>5bb288ff-81c4-4913-a970-c7b766273666</webElementGuid>
+      <webElementGuid>7e697e72-a77d-41be-a164-04f7127d8bf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>9368ac35-f134-4072-9b33-6a199d6c1945</webElementGuid>
+      <webElementGuid>2c4842e6-c670-450b-a963-838cc3082c73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'button' and @name = 'W0026W0007W0012REGISTRARINFORMACION' and @id = 'W0026W0007W0012REGISTRARINFORMACION']</value>
-      <webElementGuid>9a0bd978-c799-4ac6-b96c-654d402a4fe1</webElementGuid>
+      <webElementGuid>a096331d-9fb1-489d-b261-874c03fc3158</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

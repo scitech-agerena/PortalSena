@@ -6,15 +6,19 @@
    <elementGuidId>28425efb-2141-45c4-8cb1-cf6bf33b3470</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@id='W0026W0007W0012SELAREASINTERES']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012SELAREASINTERES</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/PortalSena16/static/Resources/ActionDisplay.png' and @id = 'W0031W0007W0012SELAREASINTERES' and @alt = 'Sel Areas Interes' and @title = 'Indique el(las) Área(s) de Interés']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@id='W0026W0007W0012SELAREASINTERES']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>b7aac0a5-3fe2-4aa8-96c7-cee62c35df5b</webElementGuid>
+      <webElementGuid>3ab6e10f-f028-4530-aef0-a0a1773e07a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/PortalSena16/static/Resources/ActionDisplay.png</value>
-      <webElementGuid>6b0fe1a3-1fb8-49aa-b574-adcbd40cb835</webElementGuid>
+      <webElementGuid>0b83c7ad-0dfc-48d0-91df-63c31a2f8be4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +42,15 @@
       <name>data-gx-evt</name>
       <type>Main</type>
       <value>7</value>
-      <webElementGuid>acc09f4b-7eed-47e3-bfd5-21b04a8565eb</webElementGuid>
+      <webElementGuid>0e9906b2-9f80-4077-bc87-fa1bfd85f1cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012SELAREASINTERES</value>
-      <webElementGuid>2d776080-6734-423c-9192-1c82b61254d8</webElementGuid>
+      <value>W0031W0007W0012SELAREASINTERES</value>
+      <webElementGuid>2ca5b3e5-5d3b-41f6-97f8-401ba0a6045f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Sel Areas Interes</value>
-      <webElementGuid>3b43dddd-04d8-44e0-917c-d27b42bafe3c</webElementGuid>
+      <webElementGuid>8c88ae2e-c411-4111-bf38-a4eafb2e215b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Indique el(las) Área(s) de Interés</value>
-      <webElementGuid>6f74d94f-e836-4cf1-a747-afaa10c8d359</webElementGuid>
+      <webElementGuid>a26e3c6b-9162-4623-a89c-d403b513270c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 312,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>882d3ae3-4b83-4f4d-8b98-6b1eec34b4c0</webElementGuid>
+      <webElementGuid>6e1a862a-fcbf-46ee-85a2-4e1f66535a54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>data-gx-evt-control</name>
       <type>Main</type>
       <value>SELAREASINTERES</value>
-      <webElementGuid>60549d39-fb76-4ded-9130-f56f2b69d66c</webElementGuid>
+      <webElementGuid>d167a2e0-3288-49a9-83de-8b37b08f8f7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,23 +90,23 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>52a9c583-0f12-4ca2-b439-772cbabaeda8</webElementGuid>
+      <webElementGuid>54d8a3f4-1973-4bb3-9e76-caa72fb3f389</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-gx-context</name>
       <type>Main</type>
-      <value>[&quot;W0026W0007W0012&quot;,false]</value>
-      <webElementGuid>7898bf32-da8a-42e4-8fc7-2dd0d2cea398</webElementGuid>
+      <value>[&quot;W0031W0007W0012&quot;,false]</value>
+      <webElementGuid>cf00c581-8ec0-4116-87b0-5281ae548cfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012SELAREASINTERES&quot;)</value>
-      <webElementGuid>3257b469-e563-453b-9e61-bd095a28b756</webElementGuid>
+      <value>id(&quot;W0031W0007W0012SELAREASINTERES&quot;)</value>
+      <webElementGuid>a6b20c75-5f8c-4f70-b54f-0bde50d9ff3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@id='W0026W0007W0012SELAREASINTERES']</value>
-      <webElementGuid>83f48ebf-d882-4bc4-8817-0d3c4ee5db76</webElementGuid>
+      <webElementGuid>a05da1af-319f-4211-b2e8-7d8b28c74dbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='W0026W0007W0012ACTIONCONTAINERTABLE_SELAREASINTERES']/tbody/tr/td/img</value>
-      <webElementGuid>355a983a-3cf4-490b-8ade-7d2802e7b007</webElementGuid>
+      <webElementGuid>251e6a9d-6dc3-4b47-900d-5b0245f00431</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Sel Areas Interes']</value>
-      <webElementGuid>32643f04-fab1-44e4-bacb-697e5e6e6527</webElementGuid>
+      <webElementGuid>85be1dc0-af17-4b7c-98fc-a065c1391ffe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/img</value>
-      <webElementGuid>ec3af575-656a-4007-8b7b-1dc4806d2351</webElementGuid>
+      <webElementGuid>091d4704-0732-4df1-8602-19ac2541022a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/PortalSena16/static/Resources/ActionDisplay.png' and @id = 'W0026W0007W0012SELAREASINTERES' and @alt = 'Sel Areas Interes' and @title = 'Indique el(las) Área(s) de Interés']</value>
-      <webElementGuid>d12002ef-d754-4e14-ba8d-beb9610743a7</webElementGuid>
+      <webElementGuid>7af9d829-b563-4bd1-bdfc-d2a7b6890851</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

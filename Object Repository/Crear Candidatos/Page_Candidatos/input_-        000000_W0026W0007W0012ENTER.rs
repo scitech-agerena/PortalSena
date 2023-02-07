@@ -6,15 +6,19 @@
    <elementGuidId>7225c618-2146-499a-b004-a03b8e11813f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='W0026W0007W0012ENTER']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#W0026W0007W0012ENTER</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @name = 'W0031W0007W0012ENTER' and @id = 'W0031W0007W0012ENTER' and @title = 'Confirmar']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='W0026W0007W0012ENTER']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bfda1ffe-3317-4527-afda-40d38e29abf0</webElementGuid>
+      <webElementGuid>307d2f04-44e9-4d9d-89f7-63b6f8cb6767</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,23 +34,23 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cfb8cbb9-fbae-4881-93c9-883752b1ab9b</webElementGuid>
+      <webElementGuid>ac26803e-479f-4893-a8c2-87ef10917bf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0026W0007W0012ENTER</value>
-      <webElementGuid>dc7e3c47-735a-4b1e-905d-9bbc7e0940e1</webElementGuid>
+      <value>W0031W0007W0012ENTER</value>
+      <webElementGuid>d6caf8d1-a06a-4bf5-90f5-f852cafcf29e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0026W0007W0012ENTER</value>
-      <webElementGuid>e66c0e26-385f-4946-a2e9-48144a54e97a</webElementGuid>
+      <value>W0031W0007W0012ENTER</value>
+      <webElementGuid>3afabafc-2f08-401b-8479-21fc3e5ee8c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Confirmar</value>
-      <webElementGuid>789162ce-4926-47cd-bf8f-4bbb0a3c7700</webElementGuid>
+      <webElementGuid>8c22b748-7bc4-4a74-a3e0-1557eb4cb87a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Confirmar</value>
-      <webElementGuid>376c748c-6c44-4e0e-91f4-713279140f59</webElementGuid>
+      <webElementGuid>ce838696-d91f-4549-b9fe-e2569fccf78e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>class</name>
       <type>Main</type>
       <value>K2BToolsButton_MainAction btn btn-default</value>
-      <webElementGuid>17026e08-54ce-4342-9be3-4134f6c53c69</webElementGuid>
+      <webElementGuid>16014cf7-753b-4c3e-a25f-ec0dab170e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>data-gx-evt</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>faead9c8-4d40-48d7-ae5c-f97454059557</webElementGuid>
+      <webElementGuid>6d44bb4d-cd7b-4c82-adc7-3cd7f21a78a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 333,'W0026W0007W0012',false,'',0)</value>
-      <webElementGuid>85dd776f-8ce6-41ee-b74a-2b8d30e59059</webElementGuid>
+      <webElementGuid>0e4ceac7-f257-4db8-b11c-c117bdb27ef9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,23 +98,23 @@
       <name>data-gx-evt-control</name>
       <type>Main</type>
       <value>ENTER</value>
-      <webElementGuid>e24e78ee-c79b-42e4-9008-d367745e8ee6</webElementGuid>
+      <webElementGuid>fc1f6e31-1475-4809-a950-f1dee26a9542</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-gx-context</name>
       <type>Main</type>
-      <value>[&quot;W0026W0007W0012&quot;,false]</value>
-      <webElementGuid>ea6e6545-2f9d-4388-9a95-75110592269a</webElementGuid>
+      <value>[&quot;W0031W0007W0012&quot;,false]</value>
+      <webElementGuid>4e513101-f0bd-47d5-b41d-726096bc3353</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0026W0007W0012ENTER&quot;)</value>
-      <webElementGuid>929fe040-a6f6-4e0f-a072-e8bf96ae59ec</webElementGuid>
+      <value>id(&quot;W0031W0007W0012ENTER&quot;)</value>
+      <webElementGuid>ae76e71d-43f0-44af-89aa-04a0bc5023bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='W0026W0007W0012ENTER']</value>
-      <webElementGuid>985e432b-9384-4dc3-84f9-9449c18f1b89</webElementGuid>
+      <webElementGuid>74c3c7be-644f-463c-9abc-a2aeec311651</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='W0026W0007W0012ACTIONSCONTAINERBUTTONS']/tbody/tr/td/input</value>
-      <webElementGuid>1bd969c3-08c8-41c9-be66-feea4aea59ab</webElementGuid>
+      <webElementGuid>f9bef0c6-3560-4e1d-9f61-d02a23176f8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/input</value>
-      <webElementGuid>655f5799-5005-4144-8bc1-a359a31a9486</webElementGuid>
+      <webElementGuid>9d367a25-9e5c-4188-8e64-caf660a09b48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'button' and @name = 'W0026W0007W0012ENTER' and @id = 'W0026W0007W0012ENTER' and @title = 'Confirmar']</value>
-      <webElementGuid>6e5176ff-eef9-4028-89b7-fd545758d760</webElementGuid>
+      <webElementGuid>0f8f2f8c-4f53-48f9-845c-e6793ec4c6b1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
