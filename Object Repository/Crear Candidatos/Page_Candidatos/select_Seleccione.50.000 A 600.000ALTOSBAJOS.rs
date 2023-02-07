@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Seleccione.50.000 A 600.000ALTOSBAJOS</name>
+   <tag></tag>
+   <elementGuidId>ec007def-2af6-49f8-a058-576190e26101</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#W0031W0007W0012RANINGSEC</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;W0031W0007W0012RANINGSEC&quot;)[count(. | //*[@id = 'W0031W0007W0012RANINGSEC' and @name = 'W0031W0007W0012RANINGSEC']) = count(//*[@id = 'W0031W0007W0012RANINGSEC' and @name = 'W0031W0007W0012RANINGSEC'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0031W0007W0012RANINGSEC']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>a53b26a5-3c00-4300-b1ca-6b7eb9e49227</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>W0031W0007W0012RANINGSEC</value>
+      <webElementGuid>a9190158-013c-41e7-8f1d-5d4d1c17bcc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>W0031W0007W0012RANINGSEC</value>
+      <webElementGuid>194e73a0-7ed6-424c-9a2f-14fb2d9ae702</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Attribute_Required form-control</value>
+      <webElementGuid>ada02338-01dd-4ea4-bc70-593ce7101c23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoch0</name>
+      <type>Main</type>
+      <value>if(!(gx.evt.jsEvent(this))) return false;</value>
+      <webElementGuid>46760d8a-4dd3-4616-bda5-2791be7692b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 154,'W0031W0007W0012',false,'',0)</value>
+      <webElementGuid>cd142eb4-a383-4161-ad40-42f003a0285f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>;gx.evt.onchange(this, event)</value>
+      <webElementGuid>765481ca-9de6-4c5e-a6f0-f72556fd91ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,154);</value>
+      <webElementGuid>58294ba2-b5e1-4db8-bda5-3cf7d569e5b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Seleccione...50.000 A 600.000ALTOSBAJOS</value>
+      <webElementGuid>46d65626-97eb-4d99-8b90-c2f3108dd413</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;W0031W0007W0012RANINGSEC&quot;)</value>
+      <webElementGuid>6d73cd00-35ec-456a-89de-a6d92fc7f971</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='W0031W0007W0012RANINGSEC']</value>
+      <webElementGuid>e8eb651b-7b53-49ae-8578-3967ef15579f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='W0031W0007W0012GROUP0TABLECONTENT']/div[12]/div[2]/div/div/select</value>
+      <webElementGuid>3b0e6d60-e2ac-4c9d-8ed9-443a09ae708e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rango Ingresos'])[2]/following::select[1]</value>
+      <webElementGuid>5282abda-02a8-4aca-ae2e-92bf461689e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición Laboral'])[1]/following::select[2]</value>
+      <webElementGuid>38311bcc-6c26-42cb-9233-bd019e162bc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado Sena'])[1]/preceding::select[1]</value>
+      <webElementGuid>be706e38-5c94-4a2c-a81e-a4da21642114</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Empleado'])[1]/preceding::select[2]</value>
+      <webElementGuid>ff0d3727-8960-485a-8055-71c6abe8dbe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div[2]/div/div/select</value>
+      <webElementGuid>85c5abfc-eee8-4169-a9d8-a2641cf51347</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'W0031W0007W0012RANINGSEC' and @name = 'W0031W0007W0012RANINGSEC' and (text() = '
+Seleccione...50.000 A 600.000ALTOSBAJOS' or . = '
+Seleccione...50.000 A 600.000ALTOSBAJOS')]</value>
+      <webElementGuid>41d22358-b571-402f-977f-c46613d74263</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

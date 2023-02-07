@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ACTIVIDADES DE APOYO DIAGNOSTICO</name>
+   <tag></tag>
+   <elementGuidId>eafbc937-5ab5-4312-825c-cd4c7455e247</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#span_vESECECODES_0001 > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='span_vESECECODES_0001']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4afd48a1-e1cb-4706-8c1d-acd0455751d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>9ce5b8c3-97a3-4b24-b054-79237fe02b81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gx-evt</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>0f10d743-d523-4e51-8589-6782d1fa343f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ACTIVIDADES DE APOYO DIAGNOSTICO</value>
+      <webElementGuid>4c6f9827-775c-4e5d-9b33-9a96659fdf35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;span_vESECECODES_0001&quot;)/a[1]</value>
+      <webElementGuid>5bea1c84-9cba-412d-b293-be16b86c6bea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Crear Organizacion/Page_Organizaciones/iframe_Image_foot1_gxp0_ifrm</value>
+      <webElementGuid>904cad80-b04d-4372-9f9d-cb8cf5277f28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='span_vESECECODES_0001']/a</value>
+      <webElementGuid>58e3945e-0797-4f0e-bcfd-4e3ee61857af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'ACTIVIDADES DE APOYO DIAGNOSTICO')]</value>
+      <webElementGuid>1113168c-c625-47e9-aa5c-6a3caeb085ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactivación'])[1]/following::a[1]</value>
+      <webElementGuid>abf66d91-4e02-4923-babf-cb129ec5b72f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::a[1]</value>
+      <webElementGuid>0ce97d4a-23b3-47b6-b351-44b5421f50ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[1]/preceding::a[1]</value>
+      <webElementGuid>dfebcbe6-f2e2-4f71-a8a2-56dd87d05b12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[2]/preceding::a[2]</value>
+      <webElementGuid>7b1ec73b-66fb-4250-9f0b-452faa47abc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ACTIVIDADES DE APOYO DIAGNOSTICO']/parent::*</value>
+      <webElementGuid>ef94ba1b-c387-45e6-8d4c-d1711789f697</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[2]</value>
+      <webElementGuid>804888f0-cd04-494a-b8e2-22320f62394a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a</value>
+      <webElementGuid>e8117d3f-138a-481e-9600-d8c62cf957fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'ACTIVIDADES DE APOYO DIAGNOSTICO' or . = 'ACTIVIDADES DE APOYO DIAGNOSTICO')]</value>
+      <webElementGuid>c279a686-a994-460e-b4ba-10a8ca5c04b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

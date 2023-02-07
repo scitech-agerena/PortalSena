@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Seleccione.Grande (200)Pequea (11-50_a45360</name>
+   <tag></tag>
+   <elementGuidId>b7e70a40-29f2-4a58-9a5d-b0735af19f40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#W0031W0007W0012EMPTAM</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0031W0007W0012EMPTAM']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>aa0a2c7f-c68f-4c14-8c64-5b6268d253e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>W0031W0007W0012EMPTAM</value>
+      <webElementGuid>baf5c48c-b494-4147-9880-bf124c7b8d95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>W0031W0007W0012EMPTAM</value>
+      <webElementGuid>c9d2f989-eb63-4409-9b35-deb23b6eddd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Attribute_Trn Attribute_Required form-control</value>
+      <webElementGuid>d3c1085e-9d32-4eb4-83d0-fb0004f57469</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoch0</name>
+      <type>Main</type>
+      <value>if(!(gx.evt.jsEvent(this))) return false;</value>
+      <webElementGuid>18a73ef4-9223-4976-a12d-b7bfb5a42314</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 81,'W0031W0007W0012',false,'',0)</value>
+      <webElementGuid>8c0dbe53-a42c-4eaf-9f21-a29be017b86c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>;gx.evt.onchange(this, event)</value>
+      <webElementGuid>f7c82365-815c-42a8-b3c4-894e3aed8709</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,81);</value>
+      <webElementGuid>b81ad000-31ca-47be-bc0f-513db71091b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxvalid</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>98e96a59-04ed-464f-a6ed-3c8b36ae8c4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+...Seleccione...Grande (+200)Pequeña (11-50)Mediana (51-200)Micro (1-10)</value>
+      <webElementGuid>d373e0e1-41d8-4673-9554-50c2c41834e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;W0031W0007W0012EMPTAM&quot;)</value>
+      <webElementGuid>e2a75d79-f3a6-45eb-9ba3-bfa9051d1973</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='W0031W0007W0012EMPTAM']</value>
+      <webElementGuid>af91216d-cd18-46f3-b162-638ded8f527e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='W0031W0007W0012TABLEATTRIBUTESINFORMSECTION1']/div[11]/div[2]/div/div/select</value>
+      <webElementGuid>b2d2c0ea-5530-44e2-9ed1-4f80de689532</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tamaño'])[1]/following::select[1]</value>
+      <webElementGuid>9dfd7a06-78cc-4a5e-8e1d-0751ec8f035f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Razon Social'])[1]/following::select[1]</value>
+      <webElementGuid>6ebd108c-28b0-43df-b1f5-3ed8d8c7d74d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N° Empleados'])[1]/preceding::select[1]</value>
+      <webElementGuid>c9bcaf0f-9c26-4ddf-9b50-6f7355202401</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='País'])[1]/preceding::select[1]</value>
+      <webElementGuid>41437423-14c4-4683-a3fe-edffdec24688</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/select</value>
+      <webElementGuid>6e44610a-66dc-406f-b3e3-a4356f6d8c39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'W0031W0007W0012EMPTAM' and @name = 'W0031W0007W0012EMPTAM' and (text() = '
+...Seleccione...Grande (+200)Pequeña (11-50)Mediana (51-200)Micro (1-10)' or . = '
+...Seleccione...Grande (+200)Pequeña (11-50)Mediana (51-200)Micro (1-10)')]</value>
+      <webElementGuid>ee039073-6f1b-4d64-9ad2-d21e6cd1b4a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

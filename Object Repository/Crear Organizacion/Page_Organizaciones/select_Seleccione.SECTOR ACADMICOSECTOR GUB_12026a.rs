@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Seleccione.SECTOR ACADMICOSECTOR GUB_12026a</name>
+   <tag></tag>
+   <elementGuidId>8295cd34-80b8-42d8-bb5f-b9819d9bae6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#W0031W0007W0012SECSEC</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0031W0007W0012SECSEC']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>fb9a44e4-6964-41ee-8bfe-ebcb22264c67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>W0031W0007W0012SECSEC</value>
+      <webElementGuid>f85dde57-0f2e-4458-a665-6f0e7b4ef175</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>W0031W0007W0012SECSEC</value>
+      <webElementGuid>734140c9-00d8-4cde-8405-3f4f8e0322ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Attribute_Trn form-control</value>
+      <webElementGuid>1fa9c9d1-a446-4aa3-a391-7b3417c0ca8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoch0</name>
+      <type>Main</type>
+      <value>if(!(gx.evt.jsEvent(this))) return false;</value>
+      <webElementGuid>a4884271-78de-4ac7-8fda-8298e8f70600</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 162,'W0031W0007W0012',false,'',0)</value>
+      <webElementGuid>2597b92a-718e-462d-aec7-63d887726ff0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>;gx.evt.onchange(this, event)</value>
+      <webElementGuid>7746a13b-b1e8-4af4-a307-a82ab75a7888</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,162);</value>
+      <webElementGuid>aebf3507-0e3b-422a-8b75-777548e5ded3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxoldvalue</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>35c5a7b9-1619-4b5c-a547-a97d683cb5e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Seleccione...SECTOR ACADÉMICOSECTOR GUBERNAMENTALSECTOR PRODUCTIVO</value>
+      <webElementGuid>6d1000c6-e6b9-4afc-b306-920df9026108</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;W0031W0007W0012SECSEC&quot;)</value>
+      <webElementGuid>3fd276a9-8ab4-497a-a057-ed755aa9604e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='W0031W0007W0012SECSEC']</value>
+      <webElementGuid>e8f68845-116d-4481-96ee-a4cf17c38c4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='W0031W0007W0012TABLEATTRIBUTESINFORMSECTION1']/div[19]/div/div/div/select</value>
+      <webElementGuid>81960d81-a315-47a0-8c83-e309368c8f40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clasificación organización'])[1]/following::select[1]</value>
+      <webElementGuid>7e67e926-167b-492c-9762-8dd83814bad2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actividad económica CIU'])[1]/following::select[2]</value>
+      <webElementGuid>76b46f1b-8c35-4eff-97c1-d8201bcc9bff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo organización'])[1]/preceding::select[1]</value>
+      <webElementGuid>08e77e82-07cb-4564-9c26-1ca99ef8d770</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Página web'])[1]/preceding::select[2]</value>
+      <webElementGuid>86fe8e00-85c7-4e56-b189-6c9a09f2acb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[19]/div/div/div/select</value>
+      <webElementGuid>45c32081-7454-4883-a233-9a441ea44d8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'W0031W0007W0012SECSEC' and @name = 'W0031W0007W0012SECSEC' and (text() = '
+Seleccione...SECTOR ACADÉMICOSECTOR GUBERNAMENTALSECTOR PRODUCTIVO' or . = '
+Seleccione...SECTOR ACADÉMICOSECTOR GUBERNAMENTALSECTOR PRODUCTIVO')]</value>
+      <webElementGuid>e690e363-d332-4bbd-b16c-10d454764eab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
