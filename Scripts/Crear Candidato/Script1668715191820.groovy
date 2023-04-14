@@ -81,6 +81,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Pag
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABAB-AA-BB-OO-'), 
     '7', true)
 
+WebUI.selectOptionByValue(findTestObject('Crear Candidatos/Page_Candidatos/select_Seleccione.FEMENINOLGTBIQMASCULINONO DEFINIDO'), 
+    '1', true)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef'), 
     '22', true)
 
@@ -143,8 +146,7 @@ WebUI.selectOptionByValue(findTestObject('Crear Candidatos/Page_Candidatos/selec
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Direccin_W0026W0007W0012ECANDIRDOM'), 
-    'Calle 1 # 2 - 03')
+WebUI.setText(findTestObject('Crear Candidatos/Page_Candidatos/input_Direccin_W0031W0007W0012ECANDIRDOM'), 'Calle 1 # 2 - 03')
 
 WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Barrio_W0026W0007W0012ECANBAR'), 
     'PROVENZA')
@@ -165,7 +167,7 @@ WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos
     '3211111111')
 
 WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_E-mail_W0026W0007W0012ECANEMA'), 
-    'correoprueba2023@gmail.com')
+    'correoprueba202304_1@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_Nombre_W0026W0007W0012ECAMEMENOM'), 
     'Ana Maria Galviz')
@@ -185,9 +187,9 @@ WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/i
 
 WebUI.click(findTestObject('Object Repository/Crear Candidatos/Page_Candidatos/input_-        000000_W0026W0007W0012ENTER'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.verifyEqual(findTestObject(null), '')
+WebUI.verifyTextPresent('fue creado', true)
 
 WebUI.takeScreenshot()
 

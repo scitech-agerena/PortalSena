@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Prueba Sena" time="271.404" tests="3" failures="2" errors="0">
+   <testsuite name="Test Suite Prueba Sena" tests="3" failures="2" errors="0" time="271.404" skipped="0" timestamp="2023-04-14 14:07:10" hostname="agerena - PC-AGERENA.SCITECH.NET.CO" id="Test Suites/Test Suite Prueba Sena">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705"/>
+         <property name="logFiles" value="C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499265846.png, C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499278415.png, C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499299520.png, C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499322592.png, C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499364795.png, C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499394888.png, C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499398967.png, C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499413538.png, C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499436605.png, C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499476445.png"/>
+         <property name="hostName" value="agerena - PC-AGERENA.SCITECH.NET.CO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="192.168.133.167"/>
+         <property name="sessionId" value="9cd4c80ed5b02ccc7d42146811402cba"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="17.504" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-04-14 14:07:11 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-04-14 14:07:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-14 14:07:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-14 14:07:11 - [MESSAGE][INFO] - Action delay is set to 1.000 milliseconds
+
+2023-04-14 14:07:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-14 14:07:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://172.29.35.250:8080/PortalSena16/servlet/com.portalsena.scigamlogin' successfully
+
+2023-04-14 14:07:19 - [MESSAGE][PASSED] - Navigate to 'http://172.29.35.250:8080/PortalSena16/servlet/com.portalsena.scigamlogin' successfully
+
+2023-04-14 14:07:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo"), "local", true): All options with value 'local' are selected in object 'Object Repository/Login/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo'  using regular expression
+
+2023-04-14 14:07:21 - [MESSAGE][PASSED] - All options with value 'local' are selected in object 'Object Repository/Login/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo'  using regular expression
+
+2023-04-14 14:07:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME"), u_scitech1): Text 'scitech_1' is set on object 'Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME'
+
+2023-04-14 14:07:24 - [MESSAGE][PASSED] - Text 'scitech_1' is set on object 'Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME'
+
+2023-04-14 14:07:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f"), p_scitech_1): Text 'scitech_1' is set on object 'Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f'
+
+2023-04-14 14:07:27 - [MESSAGE][PASSED] - Text 'scitech_1' is set on object 'Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f'
+
+2023-04-14 14:07:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN")): Object: 'Object Repository/Login/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN' is clicked on
+
+2023-04-14 14:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear Candidato" time="165.094" classname="Test Cases/Crear Candidato" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Crear Candidato FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'fue creado' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Crear Candidato.run(Crear Candidato:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'fue creado' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-04-14 14:07:28 - [TEST_CASE][FAILED] - Test Cases/Crear Candidato: Test Cases/Crear Candidato FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'fue creado' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Crear Candidato.run(Crear Candidato:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'fue creado' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-04-14 14:07:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-14 14:07:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-14 14:07:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-14 14:07:29 - [MESSAGE][INFO] - Action delay is set to 1.000 milliseconds
+
+2023-04-14 14:07:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-14 14:07:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-14 14:07:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-14 14:07:30 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://172.29.35.250:8080/PortalSena16/servlet/com.portalsena.scigamlogin' successfully
+
+2023-04-14 14:07:34 - [MESSAGE][PASSED] - Navigate to 'http://172.29.35.250:8080/PortalSena16/servlet/com.portalsena.scigamlogin' successfully
+
+2023-04-14 14:07:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo"), "local", true): All options with value 'local' are selected in object 'Object Repository/Crear Candidatos/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo'  using regular expression
+
+2023-04-14 14:07:36 - [MESSAGE][PASSED] - All options with value 'local' are selected in object 'Object Repository/Crear Candidatos/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo'  using regular expression
+
+2023-04-14 14:07:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME"), u_scitech1): Text 'scitech_1' is set on object 'Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME'
+
+2023-04-14 14:07:39 - [MESSAGE][PASSED] - Text 'scitech_1' is set on object 'Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME'
+
+2023-04-14 14:07:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f"), p_scitech_1): Text 'scitech_1' is set on object 'Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f'
+
+2023-04-14 14:07:42 - [MESSAGE][PASSED] - Text 'scitech_1' is set on object 'Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f'
+
+2023-04-14 14:07:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN")): Object: 'Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN' is clicked on
+
+2023-04-14 14:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN' is clicked on
+
+2023-04-14 14:07:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-04-14 14:07:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499265846.png]]
+
+2023-04-14 14:07:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Security Backend Home/a_Administracin")): Object: 'Object Repository/Crear Candidatos/Page_Security Backend Home/a_Administracin' is clicked on
+
+2023-04-14 14:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Security Backend Home/a_Administracin' is clicked on
+
+2023-04-14 14:07:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos")): Object: 'Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos' is clicked on
+
+2023-04-14 14:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos' is clicked on
+
+2023-04-14 14:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos_1")): Object: 'Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos_1' is clicked on
+
+2023-04-14 14:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos_1' is clicked on
+
+2023-04-14 14:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Estado_INSERT")): Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_Estado_INSERT' is clicked on
+
+2023-04-14 14:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_Estado_INSERT' is clicked on
+
+2023-04-14 14:07:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-04-14 14:07:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499278415.png]]
+
+2023-04-14 14:07:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.CCCEEINTAX IDNITPEPPPTPSTI"), "1", true): All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.CCCEEINTAX IDNITPEPPPTPSTI'  using regular expression
+
+2023-04-14 14:08:01 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.CCCEEINTAX IDNITPEPPPTPSTI'  using regular expression
+
+2023-04-14 14:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Nmero Identificacin_W0026W0007W0012EC_03770d"), "123454321"): Text '123454321' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Nmero Identificacin_W0026W0007W0012EC_03770d'
+
+2023-04-14 14:08:04 - [MESSAGE][PASSED] - Text '123454321' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Nmero Identificacin_W0026W0007W0012EC_03770d'
+
+2023-04-14 14:08:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Primer Nombre_W0026W0007W0012ECANNOMPRI"), "Juan"): Text 'Juan' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Primer Nombre_W0026W0007W0012ECANNOMPRI'
+
+2023-04-14 14:08:07 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Primer Nombre_W0026W0007W0012ECANNOMPRI'
+
+2023-04-14 14:08:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Segundo Nombre_W0026W0007W0012ECANNOMSEG"), "Jose"): Text 'Jose' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Segundo Nombre_W0026W0007W0012ECANNOMSEG'
+
+2023-04-14 14:08:10 - [MESSAGE][PASSED] - Text 'Jose' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Segundo Nombre_W0026W0007W0012ECANNOMSEG'
+
+2023-04-14 14:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Primer Apellido_W0026W0007W0012ECANAPEPRI"), "Pelaez"): Text 'Pelaez' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Primer Apellido_W0026W0007W0012ECANAPEPRI'
+
+2023-04-14 14:08:12 - [MESSAGE][PASSED] - Text 'Pelaez' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Primer Apellido_W0026W0007W0012ECANAPEPRI'
+
+2023-04-14 14:08:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Segundo Apellido_W0026W0007W0012ECANAPESEG"), "Aguirre"): Text 'Aguirre' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Segundo Apellido_W0026W0007W0012ECANAPESEG'
+
+2023-04-14 14:08:15 - [MESSAGE][PASSED] - Text 'Aguirre' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Segundo Apellido_W0026W0007W0012ECANAPESEG'
+
+2023-04-14 14:08:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Nacimiento_W0026W0007W0012ECANFECNAC"), "18/04/1993"): Text '18/04/1993' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Nacimiento_W0026W0007W0012ECANFECNAC'
+
+2023-04-14 14:08:18 - [MESSAGE][PASSED] - Text '18/04/1993' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Nacimiento_W0026W0007W0012ECANFECNAC'
+
+2023-04-14 14:08:18 - [TEST_STEP][PASSED] - fechaNacimiento = findWebElement(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Nacimiento_W0026W0007W0012ECANFECNAC"), 30): null
+
+2023-04-14 14:08:19 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].value='18/04/1993'", Arrays.asList(fechaNacimiento)): Execute JavaScript 'arguments[0].value='18/04/1993'' successfully
+
+2023-04-14 14:08:19 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='18/04/1993'' successfully
+
+2023-04-14 14:08:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-04-14 14:08:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499299520.png]]
+
+2023-04-14 14:08:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.HombreMujer"), "1", true): All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.HombreMujer'  using regular expression
+
+2023-04-14 14:08:21 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.HombreMujer'  using regular expression
+
+2023-04-14 14:08:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABAB-AA-BB-OO-"), "7", true): All options with value '7' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABAB-AA-BB-OO-'  using regular expression
+
+2023-04-14 14:08:24 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABAB-AA-BB-OO-'  using regular expression
+
+2023-04-14 14:08:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Crear Candidatos/Page_Candidatos/select_Seleccione.FEMENINOLGTBIQMASCULINONO DEFINIDO"), "1", true): All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.FEMENINOLGTBIQMASCULINONO DEFINIDO'  using regular expression
+
+2023-04-14 14:08:26 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.FEMENINOLGTBIQMASCULINONO DEFINIDO'  using regular expression
+
+2023-04-14 14:08:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef"), "22", true): All options with value '22' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef'  using regular expression
+
+2023-04-14 14:08:29 - [MESSAGE][PASSED] - All options with value '22' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef'  using regular expression
+
+2023-04-14 14:08:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AGUADAALBANIAARATOCABARBO_f6a42f"), "848", true): All options with value '848' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AGUADAALBANIAARATOCABARBO_f6a42f'  using regular expression
+
+2023-04-14 14:08:33 - [MESSAGE][PASSED] - All options with value '848' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AGUADAALBANIAARATOCABARBO_f6a42f'  using regular expression
+
+2023-04-14 14:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Expedicin_W0026W0007W0012ECANFECEXPDOC"), "19/04/2011"): Text '19/04/2011' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Expedicin_W0026W0007W0012ECANFECEXPDOC'
+
+2023-04-14 14:08:36 - [MESSAGE][PASSED] - Text '19/04/2011' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Expedicin_W0026W0007W0012ECANFECEXPDOC'
+
+2023-04-14 14:08:36 - [TEST_STEP][PASSED] - fechaExpedicion = findWebElement(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Expedicin_W0026W0007W0012ECANFECEXPDOC"), 30): null
+
+2023-04-14 14:08:37 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].value='19/04/2011'", Arrays.asList(fechaExpedicion)): Execute JavaScript 'arguments[0].value='19/04/2011'' successfully
+
+2023-04-14 14:08:37 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value='19/04/2011'' successfully
+
+2023-04-14 14:08:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef_1"), "26", true): All options with value '26' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef_1'  using regular expression
+
+2023-04-14 14:08:39 - [MESSAGE][PASSED] - All options with value '26' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef_1'  using regular expression
+
+2023-04-14 14:08:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ARAUCAARAUQUITACRAVO NORT_4b0dac"), "1053", true): All options with value '1053' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ARAUCAARAUQUITACRAVO NORT_4b0dac'  using regular expression
+
+2023-04-14 14:08:42 - [MESSAGE][PASSED] - All options with value '1053' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ARAUCAARAUQUITACRAVO NORT_4b0dac'  using regular expression
+
+2023-04-14 14:08:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-04-14 14:08:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499322592.png]]
+
+2023-04-14 14:08:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Libreta Militar_W0026W0007W0012ECANLIBMIL"), "123454321"): Text '123454321' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Libreta Militar_W0026W0007W0012ECANLIBMIL'
+
+2023-04-14 14:08:45 - [MESSAGE][PASSED] - Text '123454321' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Libreta Militar_W0026W0007W0012ECANLIBMIL'
+
+2023-04-14 14:08:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.CASADOINDIFERENTESEPARADO_cdd702"), "1", true): All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.CASADOINDIFERENTESEPARADO_cdd702'  using regular expression
+
+2023-04-14 14:08:47 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.CASADOINDIFERENTESEPARADO_cdd702'  using regular expression
+
+2023-04-14 14:08:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.NINGUNOPRIMARIAMEDIABACHI_b4fc22"), "6", true): All options with value '6' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.NINGUNOPRIMARIAMEDIABACHI_b4fc22'  using regular expression
+
+2023-04-14 14:08:50 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.NINGUNOPRIMARIAMEDIABACHI_b4fc22'  using regular expression
+
+2023-04-14 14:08:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABANDONO O DESPOJO FORZAD_e1afd4"), "46", true): All options with value '46' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABANDONO O DESPOJO FORZAD_e1afd4'  using regular expression
+
+2023-04-14 14:08:53 - [MESSAGE][PASSED] - All options with value '46' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABANDONO O DESPOJO FORZAD_e1afd4'  using regular expression
+
+2023-04-14 14:08:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SiNo"), "2", true): All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SiNo'  using regular expression
+
+2023-04-14 14:08:56 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SiNo'  using regular expression
+
+2023-04-14 14:08:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.EMPLEADOEN BSQUEDA DE EMP_3a53bd"), "1", true): All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.EMPLEADOEN BSQUEDA DE EMP_3a53bd'  using regular expression
+
+2023-04-14 14:08:58 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.EMPLEADOEN BSQUEDA DE EMP_3a53bd'  using regular expression
+
+2023-04-14 14:08:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Crear Candidatos/Page_Candidatos/select_Seleccione.50.000 A 600.000ALTOSBAJOS"), "1", false): All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.50.000 A 600.000ALTOSBAJOS' 
+
+2023-04-14 14:09:00 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.50.000 A 600.000ALTOSBAJOS' 
+
+2023-04-14 14:09:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SiNo_1"), "2", true): All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SiNo_1'  using regular expression
+
+2023-04-14 14:09:02 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SiNo_1'  using regular expression
+
+2023-04-14 14:09:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/img_Ocupacin(es)_W0026W0007W0012SELCARGOS")): Object: 'Object Repository/Crear Candidatos/Page_Candidatos/img_Ocupacin(es)_W0026W0007W0012SELCARGOS' is clicked on
+
+2023-04-14 14:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Candidatos/img_Ocupacin(es)_W0026W0007W0012SELCARGOS' is clicked on
+
+2023-04-14 14:09:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Clasificacin Nacional de Ocupaciones__a6b682")): Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_Clasificacin Nacional de Ocupaciones__a6b682' is clicked on
+
+2023-04-14 14:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_Clasificacin Nacional de Ocupaciones__a6b682' is clicked on
+
+2023-04-14 14:09:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Sin Asignar Profesiones_CONFIRMARSELECCION")): Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_Sin Asignar Profesiones_CONFIRMARSELECCION' is clicked on
+
+2023-04-14 14:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_Sin Asignar Profesiones_CONFIRMARSELECCION' is clicked on
+
+2023-04-14 14:09:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 1"), "2", true): All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 1'  using regular expression
+
+2023-04-14 14:09:17 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 1'  using regular expression
+
+2023-04-14 14:09:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 2"), "2", true): All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 2'  using regular expression
+
+2023-04-14 14:09:19 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 2'  using regular expression
+
+2023-04-14 14:09:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 3"), "2", true): All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 3'  using regular expression
+
+2023-04-14 14:09:21 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 3'  using regular expression
+
+2023-04-14 14:09:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 4"), "2", true): All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 4'  using regular expression
+
+2023-04-14 14:09:24 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 4'  using regular expression
+
+2023-04-14 14:09:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-04-14 14:09:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499364795.png]]
+
+2023-04-14 14:09:24 - [TEST_STEP][PASSED] - setText(findTestObject("Crear Candidatos/Page_Candidatos/input_Direccin_W0031W0007W0012ECANDIRDOM"), "Calle 1 # 2 - 03"): Text 'Calle 1 # 2 - 03' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Direccin_W0031W0007W0012ECANDIRDOM'
+
+2023-04-14 14:09:27 - [MESSAGE][PASSED] - Text 'Calle 1 # 2 - 03' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Direccin_W0031W0007W0012ECANDIRDOM'
+
+2023-04-14 14:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Barrio_W0026W0007W0012ECANBAR"), "PROVENZA"): Text 'PROVENZA' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Barrio_W0026W0007W0012ECANBAR'
+
+2023-04-14 14:09:31 - [MESSAGE][PASSED] - Text 'PROVENZA' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Barrio_W0026W0007W0012ECANBAR'
+
+2023-04-14 14:09:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef_1_2"), "2", true): All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef_1_2'  using regular expression
+
+2023-04-14 14:09:33 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef_1_2'  using regular expression
+
+2023-04-14 14:09:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABEJORRALABRIAQUALEJANDRA_874242"), "20", true): All options with value '20' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABEJORRALABRIAQUALEJANDRA_874242'  using regular expression
+
+2023-04-14 14:09:38 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABEJORRALABRIAQUALEJANDRA_874242'  using regular expression
+
+2023-04-14 14:09:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.TRESCUATROCINCOUNODOSSEIS"), "3", true): All options with value '3' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.TRESCUATROCINCOUNODOSSEIS'  using regular expression
+
+2023-04-14 14:09:40 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.TRESCUATROCINCOUNODOSSEIS'  using regular expression
+
+2023-04-14 14:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Telfono_W0026W0007W0012ECANTEL"), "3211111"): Text '3211111' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Telfono_W0026W0007W0012ECANTEL'
+
+2023-04-14 14:09:43 - [MESSAGE][PASSED] - Text '3211111' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Telfono_W0026W0007W0012ECANTEL'
+
+2023-04-14 14:09:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Celular_W0026W0007W0012ECANCEL"), "3211111111"): Text '3211111111' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Celular_W0026W0007W0012ECANCEL'
+
+2023-04-14 14:09:45 - [MESSAGE][PASSED] - Text '3211111111' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Celular_W0026W0007W0012ECANCEL'
+
+2023-04-14 14:09:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_E-mail_W0026W0007W0012ECANEMA"), "correoprueba2023@gmail.com"): Text 'correoprueba2023@gmail.com' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_E-mail_W0026W0007W0012ECANEMA'
+
+2023-04-14 14:09:48 - [MESSAGE][PASSED] - Text 'correoprueba2023@gmail.com' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_E-mail_W0026W0007W0012ECANEMA'
+
+2023-04-14 14:09:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Nombre_W0026W0007W0012ECAMEMENOM"), "Ana Maria Galviz"): Text 'Ana Maria Galviz' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Nombre_W0026W0007W0012ECAMEMENOM'
+
+2023-04-14 14:09:51 - [MESSAGE][PASSED] - Text 'Ana Maria Galviz' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Nombre_W0026W0007W0012ECAMEMENOM'
+
+2023-04-14 14:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_Celular_W0026W0007W0012ECAMEMETEL"), "3212222222"): Text '3212222222' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Celular_W0026W0007W0012ECAMEMETEL'
+
+2023-04-14 14:09:54 - [MESSAGE][PASSED] - Text '3212222222' is set on object 'Object Repository/Crear Candidatos/Page_Candidatos/input_Celular_W0026W0007W0012ECAMEMETEL'
+
+2023-04-14 14:09:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-04-14 14:09:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499394888.png]]
+
+2023-04-14 14:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/img_reas de Inters_W0026W0007W0012SELAREASINTERES")): Object: 'Object Repository/Crear Candidatos/Page_Candidatos/img_reas de Inters_W0026W0007W0012SELAREASINTERES' is clicked on
+
+2023-04-14 14:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Candidatos/img_reas de Inters_W0026W0007W0012SELAREASINTERES' is clicked on
+
+2023-04-14 14:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/label (1)")): Object: 'Object Repository/Crear Candidatos/Page_Candidatos/label (1)' is clicked on
+
+2023-04-14 14:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Candidatos/label (1)' is clicked on
+
+2023-04-14 14:09:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-04-14 14:09:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499398967.png]]
+
+2023-04-14 14:09:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_reas de Inters_CONFIRMAR")): Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_reas de Inters_CONFIRMAR' is clicked on
+
+2023-04-14 14:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_reas de Inters_CONFIRMAR' is clicked on
+
+2023-04-14 14:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Candidatos/Page_Candidatos/input_-        000000_W0026W0007W0012ENTER")): Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_-        000000_W0026W0007W0012ENTER' is clicked on
+
+2023-04-14 14:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Candidatos/Page_Candidatos/input_-        000000_W0026W0007W0012ENTER' is clicked on
+
+2023-04-14 14:10:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-14 14:10:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-14 14:10:04 - [TEST_STEP][FAILED] - verifyTextPresent("fue creado", true): Unable to verify text 'fue creado' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'fue creado' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Crear Candidato.run(Crear Candidato:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'fue creado' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-04-14 14:10:13 - [MESSAGE][FAILED] - Text 'fue creado' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'fue creado' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Crear Candidato.run(Crear Candidato:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+)
+
+2023-04-14 14:10:13 - [MESSAGE][FAILED] - Unable to verify text 'fue creado' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'fue creado' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Crear Candidato.run(Crear Candidato:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'fue creado' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499413538.png]]]]></system-out>
+         <system-err><![CDATA[2023-04-14 14:07:28 - [TEST_CASE][FAILED] - Test Cases/Crear Candidato: Test Cases/Crear Candidato FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'fue creado' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Crear Candidato.run(Crear Candidato:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'fue creado' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear Organizacion" time="88.539" classname="Test Cases/Crear Organizacion" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Crear Organizacion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Crear Organizacion/Page_Organizaciones/a_ACTIVIDADES DE APOYO DIAGNOSTICO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Crear Organizacion.run(Crear Organizacion:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PC-AGERENA', ip: '192.168.133.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.86, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\AGERENA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cd4c80ed5b02ccc7d42146811402cba
+*** Element info: {Using=xpath, value=//span[@id='span_vESECECODES_0001']/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:912)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-04-14 14:10:13 - [TEST_CASE][FAILED] - Test Cases/Crear Organizacion: Test Cases/Crear Organizacion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Crear Organizacion/Page_Organizaciones/a_ACTIVIDADES DE APOYO DIAGNOSTICO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Crear Organizacion.run(Crear Organizacion:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PC-AGERENA', ip: '192.168.133.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.86, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\AGERENA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cd4c80ed5b02ccc7d42146811402cba
+*** Element info: {Using=xpath, value=//span[@id='span_vESECECODES_0001']/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:912)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-04-14 14:10:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-14 14:10:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-14 14:10:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-14 14:10:14 - [MESSAGE][INFO] - Action delay is set to 1.000 milliseconds
+
+2023-04-14 14:10:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-14 14:10:15 - [TEST_STEP][PASSED] - navigateToUrl("http://172.29.35.252:8080/PortalSena16/servlet/com.portalsena.scigamlogin"): Navigate to 'http://172.29.35.252:8080/PortalSena16/servlet/com.portalsena.scigamlogin' successfully
+
+2023-04-14 14:10:19 - [MESSAGE][PASSED] - Navigate to 'http://172.29.35.252:8080/PortalSena16/servlet/com.portalsena.scigamlogin' successfully
+
+2023-04-14 14:10:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Organizacion/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo"), "local", true): All options with value 'local' are selected in object 'Object Repository/Crear Organizacion/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo'  using regular expression
+
+2023-04-14 14:10:21 - [MESSAGE][PASSED] - All options with value 'local' are selected in object 'Object Repository/Crear Organizacion/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo'  using regular expression
+
+2023-04-14 14:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME"), "scitech_1"): Text 'scitech_1' is set on object 'Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME'
+
+2023-04-14 14:10:24 - [MESSAGE][PASSED] - Text 'scitech_1' is set on object 'Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME'
+
+2023-04-14 14:10:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f"), "Ov80Ze0TAxrrh43olNsrTA=="): Text ****** has been set on object 'Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f'
+
+2023-04-14 14:10:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f'
+
+2023-04-14 14:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN")): Object: 'Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN' is clicked on
+
+2023-04-14 14:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN' is clicked on
+
+2023-04-14 14:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Organizacion/Page_Security Backend Home/a_Administracin")): Object: 'Object Repository/Crear Organizacion/Page_Security Backend Home/a_Administracin' is clicked on
+
+2023-04-14 14:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Organizacion/Page_Security Backend Home/a_Administracin' is clicked on
+
+2023-04-14 14:10:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Organizacion/Page_Security Backend Home/a_Proceso")): Object: 'Object Repository/Crear Organizacion/Page_Security Backend Home/a_Proceso' is clicked on
+
+2023-04-14 14:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Organizacion/Page_Security Backend Home/a_Proceso' is clicked on
+
+2023-04-14 14:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Organizacion/Page_Security Backend Home/span_Organizaciones")): Object: 'Object Repository/Crear Organizacion/Page_Security Backend Home/span_Organizaciones' is clicked on
+
+2023-04-14 14:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Organizacion/Page_Security Backend Home/span_Organizaciones' is clicked on
+
+2023-04-14 14:10:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-04-14 14:10:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499436605.png]]
+
+2023-04-14 14:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Indicador de Marca_INSERT")): Object: 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Indicador de Marca_INSERT' is clicked on
+
+2023-04-14 14:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Indicador de Marca_INSERT' is clicked on
+
+2023-04-14 14:10:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Nro. Identificacin_W0031W0007W0012EMPNUMID"), "1097332867"): Text '1097332867' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Nro. Identificacin_W0031W0007W0012EMPNUMID'
+
+2023-04-14 14:10:42 - [MESSAGE][PASSED] - Text '1097332867' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Nro. Identificacin_W0031W0007W0012EMPNUMID'
+
+2023-04-14 14:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Dgito Verificacin_W0031W0007W0012EMPDIGVER"), "7"): Text '7' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Dgito Verificacin_W0031W0007W0012EMPDIGVER'
+
+2023-04-14 14:10:45 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Dgito Verificacin_W0031W0007W0012EMPDIGVER'
+
+2023-04-14 14:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/textarea_Razon Social_W0031W0007W0012EMPRAZSOC"), "Pruebas Katalon"): Text 'Pruebas Katalon' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/textarea_Razon Social_W0031W0007W0012EMPRAZSOC'
+
+2023-04-14 14:10:48 - [MESSAGE][PASSED] - Text 'Pruebas Katalon' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/textarea_Razon Social_W0031W0007W0012EMPRAZSOC'
+
+2023-04-14 14:10:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.Grande (200)Pequea (11-50_a45360"), "1", true): All options with value '1' are selected in object 'Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.Grande (200)Pequea (11-50_a45360'  using regular expression
+
+2023-04-14 14:10:50 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.Grande (200)Pequea (11-50_a45360'  using regular expression
+
+2023-04-14 14:10:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_N Empleados_W0031W0007W0012EMPNUMEMP"), "100"): Text '100' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_N Empleados_W0031W0007W0012EMPNUMEMP'
+
+2023-04-14 14:10:53 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_N Empleados_W0031W0007W0012EMPNUMEMP'
+
+2023-04-14 14:10:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_32378a"), "4", true): All options with value '4' are selected in object 'Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_32378a'  using regular expression
+
+2023-04-14 14:10:56 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_32378a'  using regular expression
+
+2023-04-14 14:10:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.BOGOT D.C"), "150", true): All options with value '150' are selected in object 'Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.BOGOT D.C'  using regular expression
+
+2023-04-14 14:10:58 - [MESSAGE][PASSED] - All options with value '150' are selected in object 'Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.BOGOT D.C'  using regular expression
+
+2023-04-14 14:10:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Direccin_W0031W0007W0012EMPDIR"), "AV 1 # 2 - 3"): Text 'AV 1 # 2 - 3' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Direccin_W0031W0007W0012EMPDIR'
+
+2023-04-14 14:11:01 - [MESSAGE][PASSED] - Text 'AV 1 # 2 - 3' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Direccin_W0031W0007W0012EMPDIR'
+
+2023-04-14 14:11:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Sigla_W0031W0007W0012EMPSIG"), "KATALON"): Text 'KATALON' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Sigla_W0031W0007W0012EMPSIG'
+
+2023-04-14 14:11:04 - [MESSAGE][PASSED] - Text 'KATALON' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Sigla_W0031W0007W0012EMPSIG'
+
+2023-04-14 14:11:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Telfono_W0031W0007W0012EMPTEL"), "3211212"): Text '3211212' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Telfono_W0031W0007W0012EMPTEL'
+
+2023-04-14 14:11:07 - [MESSAGE][PASSED] - Text '3211212' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Telfono_W0031W0007W0012EMPTEL'
+
+2023-04-14 14:11:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Celular_W0031W0007W0012EMPCEL"), "3211231111"): Text '3211231111' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Celular_W0031W0007W0012EMPCEL'
+
+2023-04-14 14:11:10 - [MESSAGE][PASSED] - Text '3211231111' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Celular_W0031W0007W0012EMPCEL'
+
+2023-04-14 14:11:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Fax_W0031W0007W0012EMPFAX"), "3211212"): Text '3211212' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Fax_W0031W0007W0012EMPFAX'
+
+2023-04-14 14:11:13 - [MESSAGE][PASSED] - Text '3211212' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Fax_W0031W0007W0012EMPFAX'
+
+2023-04-14 14:11:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Correo_W0031W0007W0012EMPCOR"), "asgerenac@gmail.com"): Text 'asgerenac@gmail.com' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Correo_W0031W0007W0012EMPCOR'
+
+2023-04-14 14:11:15 - [MESSAGE][PASSED] - Text 'asgerenac@gmail.com' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Correo_W0031W0007W0012EMPCOR'
+
+2023-04-14 14:11:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-04-14 14:11:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\AGERENA\\git\\PortalSena\\Reports\\20230414_140704\\Test Suite Prueba Sena\\20230414_140705\\1681499476445.png]]
+
+2023-04-14 14:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/div_OrganizacionesNombre EmpresaOrganizacio_d30114")): Object: 'Object Repository/Crear Organizacion/Page_Organizaciones/div_OrganizacionesNombre EmpresaOrganizacio_d30114' is clicked on
+
+2023-04-14 14:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Organizacion/Page_Organizaciones/div_OrganizacionesNombre EmpresaOrganizacio_d30114' is clicked on
+
+2023-04-14 14:11:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/input_Representante legal_W0031W0007W0012EMPGER"), "JUAN JOSE PELAEZ"): Text 'JUAN JOSE PELAEZ' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Representante legal_W0031W0007W0012EMPGER'
+
+2023-04-14 14:11:20 - [MESSAGE][PASSED] - Text 'JUAN JOSE PELAEZ' is set on object 'Object Repository/Crear Organizacion/Page_Organizaciones/input_Representante legal_W0031W0007W0012EMPGER'
+
+2023-04-14 14:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/img_Seleccione_W0031W0007W0012SELACTIVIDAD")): Object: 'Object Repository/Crear Organizacion/Page_Organizaciones/img_Seleccione_W0031W0007W0012SELACTIVIDAD' is clicked on
+
+2023-04-14 14:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Crear Organizacion/Page_Organizaciones/img_Seleccione_W0031W0007W0012SELACTIVIDAD' is clicked on
+
+2023-04-14 14:11:22 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Crear Organizacion/Page_Organizaciones/a_ACTIVIDADES DE APOYO DIAGNOSTICO")): Unable to click on object 'Object Repository/Crear Organizacion/Page_Organizaciones/a_ACTIVIDADES DE APOYO DIAGNOSTICO' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Crear Organizacion/Page_Organizaciones/a_ACTIVIDADES DE APOYO DIAGNOSTICO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Crear Organizacion.run(Crear Organizacion:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PC-AGERENA', ip: '192.168.133.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.86, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\AGERENA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cd4c80ed5b02ccc7d42146811402cba
+*** Element info: {Using=xpath, value=//span[@id='span_vESECECODES_0001']/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:912)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1675700425657.run(Script1675700425657.groovy:92)
+	... 13 more
+)
+
+2023-04-14 14:11:42 - [MESSAGE][WARNING] - Switching to default content failed because of: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PC-AGERENA', ip: '192.168.133.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.86, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\AGERENA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cd4c80ed5b02ccc7d42146811402cba
+
+2023-04-14 14:11:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2023-04-14 14:11:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Crear Organizacion/Page_Organizaciones/a_ACTIVIDADES DE APOYO DIAGNOSTICO' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Crear Organizacion/Page_Organizaciones/a_ACTIVIDADES DE APOYO DIAGNOSTICO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Crear Organizacion.run(Crear Organizacion:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PC-AGERENA', ip: '192.168.133.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.86, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\AGERENA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cd4c80ed5b02ccc7d42146811402cba
+*** Element info: {Using=xpath, value=//span[@id='span_vESECECODES_0001']/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:912)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1675700425657.run(Script1675700425657.groovy:92)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2023-04-14 14:10:13 - [TEST_CASE][FAILED] - Test Cases/Crear Organizacion: Test Cases/Crear Organizacion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Crear Organizacion/Page_Organizaciones/a_ACTIVIDADES DE APOYO DIAGNOSTICO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Crear Organizacion.run(Crear Organizacion:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PC-AGERENA', ip: '192.168.133.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.86, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\AGERENA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cd4c80ed5b02ccc7d42146811402cba
+*** Element info: {Using=xpath, value=//span[@id='span_vESECECODES_0001']/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1022)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:912)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1371)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-14 14:07:10 - [TEST_SUITE][FAILED] - Test Suite Prueba Sena: Test Cases/Crear Candidato FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'fue creado' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Crear Candidato.run(Crear Candidato:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'fue creado' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-04-14 14:07:10 - [TEST_SUITE][FAILED] - Test Suite Prueba Sena: Test Cases/Crear Candidato FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'fue creado' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Crear Candidato.run(Crear Candidato:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1681499225675.run(TempTestSuite1681499225675.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'fue creado' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

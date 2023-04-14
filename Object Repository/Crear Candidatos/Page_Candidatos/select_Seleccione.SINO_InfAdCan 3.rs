@@ -10,15 +10,15 @@
          <value>#W0031W0007W0012W0239vCOMBO_0002</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>//select[@id='W0031W0007W0012W0243vCOMBO_0003']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>id(&quot;W0031W0007W0012W0239vCOMBO_0003&quot;)[count(. | //*[@id = 'W0031W0007W0012W0239vCOMBO_0003' and @name = 'W0031W0007W0012W0239vCOMBO_0003' and (text() = 'Seleccione...SINO' or . = 'Seleccione...SINO')]) = count(//*[@id = 'W0031W0007W0012W0239vCOMBO_0003' and @name = 'W0031W0007W0012W0239vCOMBO_0003' and (text() = 'Seleccione...SINO' or . = 'Seleccione...SINO')])]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//select[@id='W0031W0007W0012W0239vCOMBO_0002']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>89c33f84-575f-41bb-86aa-a85bae84e297</webElementGuid>
+      <webElementGuid>f8add10b-953c-4fa4-91a2-f0d0ae69909c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>W0031W0007W0012W0239vCOMBO_0003</value>
-      <webElementGuid>7046909f-b15a-48e4-b677-36cccc93585e</webElementGuid>
+      <webElementGuid>cb3ea321-1b96-4cbf-99cc-9a1e1305cba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>W0031W0007W0012W0239vCOMBO_0003</value>
-      <webElementGuid>b69d34fa-6ed4-4599-95aa-31d0d932365a</webElementGuid>
+      <webElementGuid>a2a15c1f-ca39-4a16-9909-7b1dd97ae5c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Attribute_Trn form-control</value>
-      <webElementGuid>72cde807-4a8b-46a0-8ed3-6ce86c8048e7</webElementGuid>
+      <webElementGuid>5f8eb8a1-fced-4ea0-81bc-2a4f5b9cce74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>gx.evt.onfocus(this, 49,'W0031W0007W0012W0239',false,'0002',21)</value>
-      <webElementGuid>68a7a210-8cd6-4955-b442-f91f8d7a5bf7</webElementGuid>
+      <webElementGuid>8a711225-6aa1-40ef-87c0-06cc4c0f0387</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>;gx.evt.onchange(this, event)</value>
-      <webElementGuid>c71bf249-6a0d-4488-8aff-4446704a90f2</webElementGuid>
+      <webElementGuid>cb0de514-2aef-40c3-b937-9b66464dcb34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>;gx.evt.onblur(this,49);</value>
-      <webElementGuid>6b9614a2-b6b3-4d0f-86c7-623cac5fa864</webElementGuid>
+      <webElementGuid>505f2a23-06b1-47fb-a5c2-fcc27f17cb3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>data-gxoch0</name>
       <type>Main</type>
       <value>if( !gx.evt.jsEvent(this)) return false;</value>
-      <webElementGuid>93e2f54e-9d58-4b91-a2cd-2f8516679ae7</webElementGuid>
+      <webElementGuid>7dd3f09b-2256-49a5-9fb7-225698da3982</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Seleccione...SINO</value>
-      <webElementGuid>0fa24922-8f82-473b-93fc-985b73088736</webElementGuid>
+      <webElementGuid>49f93c30-86ec-4413-92fb-2f918cfd5f47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;W0031W0007W0012W0239vCOMBO_0003&quot;)</value>
-      <webElementGuid>1d5f8c52-9030-40c2-9469-e10e284171b7</webElementGuid>
+      <webElementGuid>8830c02d-39aa-4c4d-bc62-9aa23077a1d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='W0031W0007W0012W0239vCOMBO_0002']</value>
-      <webElementGuid>bb342063-a9e2-45a4-b54c-c9506b0282a1</webElementGuid>
+      <webElementGuid>a02f2cdd-a243-4c2e-b922-efe55ff7559a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='W0031W0007W0012W0239TABLE_CONTAINER_TITULOFIELDCONTAINER_0002']/div[5]/select</value>
-      <webElementGuid>4f3f71bf-2497-4f96-b0b2-ab64054222ad</webElementGuid>
+      <webElementGuid>73957834-0386-48e0-bce9-5d73b7a5fec2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Titulo'])[2]/following::select[1]</value>
-      <webElementGuid>dd57c3a8-7bf0-41c9-ba11-90a9cb4980b4</webElementGuid>
+      <webElementGuid>cccd34d3-d1fb-400f-ae94-136a91aa5fa3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='POBLACIÓN DE ACOGIDA'])[1]/following::select[1]</value>
-      <webElementGuid>7f12eea8-235f-446d-9f73-c5d832ab776c</webElementGuid>
+      <webElementGuid>9bba619d-4467-4067-bb26-de86558aa82d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[6]/preceding::select[1]</value>
-      <webElementGuid>93369ce6-b535-486b-a03a-68f4467dc4c1</webElementGuid>
+      <webElementGuid>662dd048-15ae-4183-abbd-9fe13b331e95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Combo'])[2]/preceding::select[1]</value>
-      <webElementGuid>9179669b-5654-4abc-a80a-fa3f002120c9</webElementGuid>
+      <webElementGuid>a19fde62-142e-47d1-b19c-bd125974597a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/table/tbody/tr/td/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div[5]/select</value>
-      <webElementGuid>4b3ab560-a319-4130-94f7-9f6e3e0cb3c9</webElementGuid>
+      <webElementGuid>e5263de7-2278-4df3-a355-ce70ccd48056</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,6 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'W0031W0007W0012W0239vCOMBO_0002' and @name = 'W0031W0007W0012W0239vCOMBO_0002' and (text() = 'Seleccione...SINO' or . = 'Seleccione...SINO')]</value>
-      <webElementGuid>ca566967-f05c-4d28-99f6-708b27e20875</webElementGuid>
+      <webElementGuid>ed1de204-b217-48c7-9a91-e7c2fde8052b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
