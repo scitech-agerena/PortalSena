@@ -54,7 +54,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Organizacion/P
     '1', true)
 
 WebUI.setText(findTestObject('Object Repository/Crear Organizacion/Page_Organizaciones/input_N Empleados_W0031W0007W0012EMPNUMEMP'), 
-    '100')
+    '200')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_32378a'), 
     '4', true)
@@ -96,8 +96,6 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Organizacion/P
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.CENTRO DE INVESTIGACIN Y _015f4d'), 
     '1', true)
-
-WebUI.acceptAlert()
 
 WebUI.setText(findTestObject('Object Repository/Crear Organizacion/Page_Organizaciones/input_Pgina web_W0031W0007W0012EMPPAGWEB'), 
     'WWW.ALGECAS.COM')

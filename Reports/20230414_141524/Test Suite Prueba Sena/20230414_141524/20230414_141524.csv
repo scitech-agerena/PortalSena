@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Prueba Sena,Chrome 112.0.0.0,,,2023-04-14 14:15:28,2023-04-14 14:20:03,"4m - 35,026s",FAILED
+,,,,,,,
+Test Cases/Login,Chrome 112.0.0.0,Ingreso a la aplicación,,2023-04-14 14:15:28,2023-04-14 14:15:45,"16,676s",PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-14 14:15:29,2023-04-14 14:15:31,"2,262s",PASSED
+navigateToUrl(url),Chrome 112.0.0.0,,,2023-04-14 14:15:31,2023-04-14 14:15:36,"4,912s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo""), ""local"", true)",Chrome 112.0.0.0,,,2023-04-14 14:15:36,2023-04-14 14:15:38,"2,073s",PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME""), u_scitech1)",Chrome 112.0.0.0,,,2023-04-14 14:15:38,2023-04-14 14:15:41,"2,838s",PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f""), p_scitech_1)",Chrome 112.0.0.0,,,2023-04-14 14:15:41,2023-04-14 14:15:43,"2,722s",PASSED
+"click(findTestObject(""Object Repository/Login/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN""))",Chrome 112.0.0.0,,,2023-04-14 14:15:43,2023-04-14 14:15:45,"1,527s",PASSED
+,,,,,,,
+Test Cases/Crear Candidato,Chrome 112.0.0.0,,,2023-04-14 14:15:45,2023-04-14 14:18:31,"2m - 46,436s",PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-14 14:15:45,2023-04-14 14:15:47,"1,788s",PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-14 14:15:47,2023-04-14 14:15:47,"0,142s",PASSED
+navigateToUrl(url),Chrome 112.0.0.0,,,2023-04-14 14:15:47,2023-04-14 14:15:51,"4,246s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo""), ""local"", true)",Chrome 112.0.0.0,,,2023-04-14 14:15:51,2023-04-14 14:15:53,"2,019s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME""), u_scitech1)",Chrome 112.0.0.0,,,2023-04-14 14:15:53,2023-04-14 14:15:56,"2,805s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f""), p_scitech_1)",Chrome 112.0.0.0,,,2023-04-14 14:15:56,2023-04-14 14:15:59,"2,705s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN""))",Chrome 112.0.0.0,,,2023-04-14 14:15:59,2023-04-14 14:16:01,"1,505s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:16:01,2023-04-14 14:16:03,"2,137s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Security Backend Home/a_Administracin""))",Chrome 112.0.0.0,,,2023-04-14 14:16:03,2023-04-14 14:16:04,"1,379s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos""))",Chrome 112.0.0.0,,,2023-04-14 14:16:04,2023-04-14 14:16:06,"1,509s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Security Backend Home/a_Candidatos_1""))",Chrome 112.0.0.0,,,2023-04-14 14:16:06,2023-04-14 14:16:07,"1,601s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Estado_INSERT""))",Chrome 112.0.0.0,,,2023-04-14 14:16:07,2023-04-14 14:16:13,"6,351s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:16:13,2023-04-14 14:16:15,"1,845s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.CCCEEINTAX IDNITPEPPPTPSTI""), ""1"", true)",Chrome 112.0.0.0,,,2023-04-14 14:16:15,2023-04-14 14:16:18,"2,821s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Nmero Identificacin_W0026W0007W0012EC_03770d""), ""123454321"")",Chrome 112.0.0.0,,,2023-04-14 14:16:18,2023-04-14 14:16:21,"2,874s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Primer Nombre_W0026W0007W0012ECANNOMPRI""), ""Juan"")",Chrome 112.0.0.0,,,2023-04-14 14:16:21,2023-04-14 14:16:24,"2,829s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Segundo Nombre_W0026W0007W0012ECANNOMSEG""), ""Jose"")",Chrome 112.0.0.0,,,2023-04-14 14:16:24,2023-04-14 14:16:27,"2,954s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Primer Apellido_W0026W0007W0012ECANAPEPRI""), ""Pelaez"")",Chrome 112.0.0.0,,,2023-04-14 14:16:27,2023-04-14 14:16:30,"2,737s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Segundo Apellido_W0026W0007W0012ECANAPESEG""), ""Aguirre"")",Chrome 112.0.0.0,,,2023-04-14 14:16:30,2023-04-14 14:16:32,"2,851s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Nacimiento_W0026W0007W0012ECANFECNAC""), ""18/04/1993"")",Chrome 112.0.0.0,,,2023-04-14 14:16:32,2023-04-14 14:16:36,"3,093s",PASSED
+"fechaNacimiento = findWebElement(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Nacimiento_W0026W0007W0012ECANFECNAC""), 30)",Chrome 112.0.0.0,,,2023-04-14 14:16:36,2023-04-14 14:16:36,"0,336s",PASSED
+"executeJavaScript(""arguments[0].value='18/04/1993'"", Arrays.asList(fechaNacimiento))",Chrome 112.0.0.0,,,2023-04-14 14:16:36,2023-04-14 14:16:36,"0,043s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:16:36,2023-04-14 14:16:36,"0,339s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.HombreMujer""), ""1"", true)",Chrome 112.0.0.0,,,2023-04-14 14:16:36,2023-04-14 14:16:38,"2,171s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABAB-AA-BB-OO-""), ""7"", true)",Chrome 112.0.0.0,,,2023-04-14 14:16:38,2023-04-14 14:16:41,"2,541s",PASSED
+"selectOptionByValue(findTestObject(""Crear Candidatos/Page_Candidatos/select_Seleccione.FEMENINOLGTBIQMASCULINONO DEFINIDO""), ""1"", true)",Chrome 112.0.0.0,,,2023-04-14 14:16:41,2023-04-14 14:16:43,"2,298s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef""), ""22"", true)",Chrome 112.0.0.0,,,2023-04-14 14:16:43,2023-04-14 14:16:46,"3,244s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AGUADAALBANIAARATOCABARBO_f6a42f""), ""848"", true)",Chrome 112.0.0.0,,,2023-04-14 14:16:46,2023-04-14 14:16:50,"3,715s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Expedicin_W0026W0007W0012ECANFECEXPDOC""), ""19/04/2011"")",Chrome 112.0.0.0,,,2023-04-14 14:16:50,2023-04-14 14:16:53,"3,048s",PASSED
+"fechaExpedicion = findWebElement(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Fecha Expedicin_W0026W0007W0012ECANFECEXPDOC""), 30)",Chrome 112.0.0.0,,,2023-04-14 14:16:53,2023-04-14 14:16:54,"0,322s",PASSED
+"executeJavaScript(""arguments[0].value='19/04/2011'"", Arrays.asList(fechaExpedicion))",Chrome 112.0.0.0,,,2023-04-14 14:16:54,2023-04-14 14:16:54,"0,027s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef_1""), ""26"", true)",Chrome 112.0.0.0,,,2023-04-14 14:16:54,2023-04-14 14:16:56,"2,659s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ARAUCAARAUQUITACRAVO NORT_4b0dac""), ""1053"", true)",Chrome 112.0.0.0,,,2023-04-14 14:16:56,2023-04-14 14:16:59,"2,296s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:16:59,2023-04-14 14:16:59,"0,658s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Libreta Militar_W0026W0007W0012ECANLIBMIL""), ""123454321"")",Chrome 112.0.0.0,,,2023-04-14 14:16:59,2023-04-14 14:17:02,"2,743s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.CASADOINDIFERENTESEPARADO_cdd702""), ""1"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:02,2023-04-14 14:17:04,"2,363s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.NINGUNOPRIMARIAMEDIABACHI_b4fc22""), ""6"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:04,2023-04-14 14:17:07,"2,579s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABANDONO O DESPOJO FORZAD_e1afd4""), ""46"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:07,2023-04-14 14:17:10,"3,430s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SiNo""), ""2"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:10,2023-04-14 14:17:13,"2,337s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.EMPLEADOEN BSQUEDA DE EMP_3a53bd""), ""1"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:13,2023-04-14 14:17:15,"2,360s",PASSED
+"selectOptionByValue(findTestObject(""Crear Candidatos/Page_Candidatos/select_Seleccione.50.000 A 600.000ALTOSBAJOS""), ""1"", false)",Chrome 112.0.0.0,,,2023-04-14 14:17:15,2023-04-14 14:17:17,"1,988s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.SiNo_1""), ""2"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:17,2023-04-14 14:17:19,"2,367s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/img_Ocupacin(es)_W0026W0007W0012SELCARGOS""))",Chrome 112.0.0.0,,,2023-04-14 14:17:19,2023-04-14 14:17:21,"1,511s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Clasificacin Nacional de Ocupaciones__a6b682""))",Chrome 112.0.0.0,,,2023-04-14 14:17:21,2023-04-14 14:17:30,"9,016s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Sin Asignar Profesiones_CONFIRMARSELECCION""))",Chrome 112.0.0.0,,,2023-04-14 14:17:30,2023-04-14 14:17:32,"1,623s",PASSED
+"selectOptionByValue(findTestObject(""Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 1""), ""2"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:32,2023-04-14 14:17:34,"2,816s",PASSED
+"selectOptionByValue(findTestObject(""Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 2""), ""2"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:34,2023-04-14 14:17:37,"2,369s",PASSED
+"selectOptionByValue(findTestObject(""Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 3""), ""2"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:37,2023-04-14 14:17:39,"2,346s",PASSED
+"selectOptionByValue(findTestObject(""Crear Candidatos/Page_Candidatos/select_Seleccione.SINO_InfAdCan 4""), ""2"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:39,2023-04-14 14:17:41,"2,349s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:17:41,2023-04-14 14:17:42,"0,670s",PASSED
+"setText(findTestObject(""Crear Candidatos/Page_Candidatos/input_Direccin_W0031W0007W0012ECANDIRDOM""), ""Calle 1 # 2 - 03"")",Chrome 112.0.0.0,,,2023-04-14 14:17:42,2023-04-14 14:17:45,"2,764s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Barrio_W0026W0007W0012ECANBAR""), ""PROVENZA"")",Chrome 112.0.0.0,,,2023-04-14 14:17:45,2023-04-14 14:17:48,"3,317s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_c008ef_1_2""), ""2"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:48,2023-04-14 14:17:51,"2,750s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.ABEJORRALABRIAQUALEJANDRA_874242""), ""20"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:51,2023-04-14 14:17:55,"4,336s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/select_Seleccione.TRESCUATROCINCOUNODOSSEIS""), ""3"", true)",Chrome 112.0.0.0,,,2023-04-14 14:17:55,2023-04-14 14:17:57,"2,201s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Telfono_W0026W0007W0012ECANTEL""), ""3211111"")",Chrome 112.0.0.0,,,2023-04-14 14:17:57,2023-04-14 14:18:00,"2,974s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Celular_W0026W0007W0012ECANCEL""), ""3211111111"")",Chrome 112.0.0.0,,,2023-04-14 14:18:00,2023-04-14 14:18:03,"2,708s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_E-mail_W0026W0007W0012ECANEMA""), ""correoprueba202304_1@gmail.com"")",Chrome 112.0.0.0,,,2023-04-14 14:18:03,2023-04-14 14:18:06,"2,986s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Nombre_W0026W0007W0012ECAMEMENOM""), ""Ana Maria Galviz"")",Chrome 112.0.0.0,,,2023-04-14 14:18:06,2023-04-14 14:18:09,"2,835s",PASSED
+"setText(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_Celular_W0026W0007W0012ECAMEMETEL""), ""3212222222"")",Chrome 112.0.0.0,,,2023-04-14 14:18:09,2023-04-14 14:18:12,"2,815s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:18:12,2023-04-14 14:18:12,"0,556s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/img_reas de Inters_W0026W0007W0012SELAREASINTERES""))",Chrome 112.0.0.0,,,2023-04-14 14:18:12,2023-04-14 14:18:14,"1,387s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/label (1)""))",Chrome 112.0.0.0,,,2023-04-14 14:18:14,2023-04-14 14:18:16,"2,209s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:18:16,2023-04-14 14:18:16,"0,575s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_reas de Inters_CONFIRMAR""))",Chrome 112.0.0.0,,,2023-04-14 14:18:16,2023-04-14 14:18:18,"1,511s",PASSED
+"click(findTestObject(""Object Repository/Crear Candidatos/Page_Candidatos/input_-        000000_W0026W0007W0012ENTER""))",Chrome 112.0.0.0,,,2023-04-14 14:18:18,2023-04-14 14:18:20,"1,935s",PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-14 14:18:20,2023-04-14 14:18:22,"2,026s",PASSED
+"verifyTextPresent(""fue creado"", true)",Chrome 112.0.0.0,,,2023-04-14 14:18:22,2023-04-14 14:18:31,"9,083s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:18:31,2023-04-14 14:18:31,"0,340s",PASSED
+,,,,,,,
+Test Cases/Crear Organizacion,Chrome 112.0.0.0,,,2023-04-14 14:18:31,2023-04-14 14:20:03,"1m - 31,630s",FAILED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-14 14:18:32,2023-04-14 14:18:33,"1,787s",PASSED
+"navigateToUrl(""http://172.29.35.252:8080/PortalSena16/servlet/com.portalsena.scigamlogin"")",Chrome 112.0.0.0,,,2023-04-14 14:18:33,2023-04-14 14:18:38,"4,478s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Organizacion/Page_Inicio de Sesin/select_SENA  InternoUsuario Externo""), ""local"", true)",Chrome 112.0.0.0,,,2023-04-14 14:18:38,2023-04-14 14:18:40,"2,009s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Iniciar con_vUSERNAME""), ""scitech_1"")",Chrome 112.0.0.0,,,2023-04-14 14:18:40,2023-04-14 14:18:43,"2,814s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Iniciar con_USERPASSWORDContainer_Use_26b53f""), ""Ov80Ze0TAxrrh43olNsrTA=="")",Chrome 112.0.0.0,,,2023-04-14 14:18:43,2023-04-14 14:18:45,"2,535s",PASSED
+"click(findTestObject(""Object Repository/Crear Organizacion/Page_Inicio de Sesin/input_Por favor ingrese en siguiente texto_LOGIN""))",Chrome 112.0.0.0,,,2023-04-14 14:18:45,2023-04-14 14:18:47,"1,503s",PASSED
+"click(findTestObject(""Object Repository/Crear Organizacion/Page_Security Backend Home/a_Administracin""))",Chrome 112.0.0.0,,,2023-04-14 14:18:47,2023-04-14 14:19:03,"15,950s",PASSED
+"click(findTestObject(""Object Repository/Crear Organizacion/Page_Security Backend Home/a_Proceso""))",Chrome 112.0.0.0,,,2023-04-14 14:19:03,2023-04-14 14:19:04,"1,599s",PASSED
+"click(findTestObject(""Object Repository/Crear Organizacion/Page_Security Backend Home/span_Organizaciones""))",Chrome 112.0.0.0,,,2023-04-14 14:19:04,2023-04-14 14:19:06,"1,599s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:19:06,2023-04-14 14:19:09,"2,979s",PASSED
+"click(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Indicador de Marca_INSERT""))",Chrome 112.0.0.0,,,2023-04-14 14:19:09,2023-04-14 14:19:10,"1,375s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Nro. Identificacin_W0031W0007W0012EMPNUMID""), ""1097332867"")",Chrome 112.0.0.0,,,2023-04-14 14:19:10,2023-04-14 14:19:15,"4,584s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Dgito Verificacin_W0031W0007W0012EMPDIGVER""), ""7"")",Chrome 112.0.0.0,,,2023-04-14 14:19:15,2023-04-14 14:19:18,"3,388s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/textarea_Razon Social_W0031W0007W0012EMPRAZSOC""), ""Pruebas Katalon"")",Chrome 112.0.0.0,,,2023-04-14 14:19:18,2023-04-14 14:19:21,"2,727s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.Grande (200)Pequea (11-50_a45360""), ""1"", true)",Chrome 112.0.0.0,,,2023-04-14 14:19:21,2023-04-14 14:19:23,"2,461s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_N Empleados_W0031W0007W0012EMPNUMEMP""), ""200"")",Chrome 112.0.0.0,,,2023-04-14 14:19:23,2023-04-14 14:19:27,"3,280s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.AMAZONASANTIOQUIAARAUCAAT_32378a""), ""4"", true)",Chrome 112.0.0.0,,,2023-04-14 14:19:27,2023-04-14 14:19:29,"2,652s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.BOGOT D.C""), ""150"", true)",Chrome 112.0.0.0,,,2023-04-14 14:19:29,2023-04-14 14:19:31,"2,074s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Direccin_W0031W0007W0012EMPDIR""), ""AV 1 # 2 - 3"")",Chrome 112.0.0.0,,,2023-04-14 14:19:31,2023-04-14 14:19:34,"2,950s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Sigla_W0031W0007W0012EMPSIG""), ""KATALON"")",Chrome 112.0.0.0,,,2023-04-14 14:19:34,2023-04-14 14:19:37,"2,733s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Telfono_W0031W0007W0012EMPTEL""), ""3211212"")",Chrome 112.0.0.0,,,2023-04-14 14:19:37,2023-04-14 14:19:40,"2,941s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Celular_W0031W0007W0012EMPCEL""), ""3211231111"")",Chrome 112.0.0.0,,,2023-04-14 14:19:40,2023-04-14 14:19:43,"2,946s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Fax_W0031W0007W0012EMPFAX""), ""3211212"")",Chrome 112.0.0.0,,,2023-04-14 14:19:43,2023-04-14 14:19:46,"2,931s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Correo_W0031W0007W0012EMPCOR""), ""asgerenac@gmail.com"")",Chrome 112.0.0.0,,,2023-04-14 14:19:46,2023-04-14 14:19:49,"2,965s",PASSED
+takeScreenshot(),Chrome 112.0.0.0,,,2023-04-14 14:19:49,2023-04-14 14:19:49,"0,554s",PASSED
+"click(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/div_OrganizacionesNombre EmpresaOrganizacio_d30114""))",Chrome 112.0.0.0,,,2023-04-14 14:19:49,2023-04-14 14:19:51,"1,446s",PASSED
+"setText(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/input_Representante legal_W0031W0007W0012EMPGER""), ""JUAN JOSE PELAEZ"")",Chrome 112.0.0.0,,,2023-04-14 14:19:51,2023-04-14 14:19:54,"2,849s",PASSED
+"click(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/img_Seleccione_W0031W0007W0012SELACTIVIDAD""))",Chrome 112.0.0.0,,,2023-04-14 14:19:54,2023-04-14 14:19:55,"1,499s",PASSED
+"click(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/a_ACTIVIDADES DE APOYO DIAGNOSTICO""))",Chrome 112.0.0.0,,,2023-04-14 14:19:55,2023-04-14 14:19:58,"2,514s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.SECTOR ACADMICOSECTOR GUB_12026a""), ""3"", true)",Chrome 112.0.0.0,,,2023-04-14 14:19:58,2023-04-14 14:20:00,"2,687s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Crear Organizacion/Page_Organizaciones/select_Seleccione.CENTRO DE INVESTIGACIN Y _015f4d""), ""1"", true)",Chrome 112.0.0.0,,,2023-04-14 14:20:00,2023-04-14 14:20:03,"2,337s",PASSED
+acceptAlert(),Chrome 112.0.0.0,,,2023-04-14 14:20:03,2023-04-14 14:20:03,"0,233s",FAILED
